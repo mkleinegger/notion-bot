@@ -1,0 +1,1855 @@
+main ~ start fetching data...
+main ~ ...finish fetching data
+main ~ start fetching data...
+main ~ ...finish fetching data
+Fri Sep 16 2022 15:07:27 GMT+0200 (Central European Summer Time): main ~ start fetching data...
+Fri Sep 16 2022 15:07:31 GMT+0200 (Central European Summer Time): main ~ ...finish fetching data
+2022-09-16T14:49:04.386Z: main ~ start fetching data...
+2022-09-16T14:49:07.765Z: main ~ ...finish fetching data
+2022-09-16T15:08:10.113Z: main ~ start fetching data...
+2022-09-16T15:08:12.798Z: main ~ ...finish fetching data
+2022-09-16T15:25:13.595Z: fetchPages ~ error occured when fetching pages from databaseId 0cfbb67c-44a4-437a-b272-34484d01c61c  APIResponseError: body failed validation. Fix one:
+body.filter.and[0].and[0].title should be defined, instead was `undefined`.
+body.filter.and[0].and[0].rich_text should be defined, instead was `undefined`.
+body.filter.and[0].and[0].number should be defined, instead was `undefined`.
+body.filter.and[0].and[0].checkbox should be defined, instead was `undefined`.
+body.filter.and[0].and[0].select should be defined, instead was `undefined`.
+body.filter.and[0].and[0].multi_select should be defined, instead was `undefined`.
+body.filter.and[0].and[0].status should be defined, instead was `undefined`.
+body.filter.and[0].and[0].date should be defined, instead was `undefined`.
+body.filter.and[0].and[0].people should be defined, instead was `undefined`.
+body.filter.and[0].and[0].files should be defined, instead was `undefined`.
+body.filter.and[0].and[0].url should be defined, instead was `undefined`.
+body.filter.and[0].and[0].email should be defined, instead was `undefined`.
+body.filter.and[0].and[0].phone_number should be defined, instead was `undefined`.
+body.filter.and[0].and[0].relation should be defined, instead was `undefined`.
+body.filter.and[0].and[0].created_by should be defined, instead was `undefined`.
+body.filter.and[0].and[0].property should be defined, instead was `undefined`.
+body.filter.and[0].and[0].last_edited_by should be defined, instead was `undefined`.
+body.filter.and[0].and[0].last_edited_time should be defined, instead was `undefined`.
+body.filter.and[0].and[0].formula should be defined, instead was `undefined`.
+body.filter.and[0].and[0].rollup should be defined, instead was `undefined`.
+    at buildRequestError (/Users/maxkleinegger/Desktop/notion-bot/node_modules/@notionhq/client/build/src/errors.js:162:16)
+    at Client.request (/Users/maxkleinegger/Desktop/notion-bot/node_modules/@notionhq/client/build/src/Client.js:342:54)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async exports.fetchPages (/Users/maxkleinegger/Desktop/notion-bot/notionAPIHelper.js:21:22)
+    at async main (/Users/maxkleinegger/Desktop/notion-bot/notion_automatization_script.js:82:15) {
+  code: 'validation_error',
+  status: 400,
+  headers: Headers {
+    [Symbol(map)]: [Object: null prototype] {
+      date: [Array],
+      'content-type': [Array],
+      'transfer-encoding': [Array],
+      connection: [Array],
+      'set-cookie': [Array],
+      'content-security-policy': [Array],
+      'x-dns-prefetch-control': [Array],
+      'x-frame-options': [Array],
+      'strict-transport-security': [Array],
+      'x-download-options': [Array],
+      'x-content-type-options': [Array],
+      'x-permitted-cross-domain-policies': [Array],
+      'referrer-policy': [Array],
+      'x-xss-protection': [Array],
+      etag: [Array],
+      vary: [Array],
+      'content-encoding': [Array],
+      'cf-cache-status': [Array],
+      server: [Array],
+      'cf-ray': [Array]
+    }
+  },
+  body: '{"object":"error","status":400,"code":"validation_error","message":"body failed validation. Fix one:\\nbody.filter.and[0].and[0].title should be defined, instead was `undefined`.\\nbody.filter.and[0].and[0].rich_text should be defined, instead was `undefined`.\\nbody.filter.and[0].and[0].number should be defined, instead was `undefined`.\\nbody.filter.and[0].and[0].checkbox should be defined, instead was `undefined`.\\nbody.filter.and[0].and[0].select should be defined, instead was `undefined`.\\nbody.filter.and[0].and[0].multi_select should be defined, instead was `undefined`.\\nbody.filter.and[0].and[0].status should be defined, instead was `undefined`.\\nbody.filter.and[0].and[0].date should be defined, instead was `undefined`.\\nbody.filter.and[0].and[0].people should be defined, instead was `undefined`.\\nbody.filter.and[0].and[0].files should be defined, instead was `undefined`.\\nbody.filter.and[0].and[0].url should be defined, instead was `undefined`.\\nbody.filter.and[0].and[0].email should be defined, instead was `undefined`.\\nbody.filter.and[0].and[0].phone_number should be defined, instead was `undefined`.\\nbody.filter.and[0].and[0].relation should be defined, instead was `undefined`.\\nbody.filter.and[0].and[0].created_by should be defined, instead was `undefined`.\\nbody.filter.and[0].and[0].property should be defined, instead was `undefined`.\\nbody.filter.and[0].and[0].last_edited_by should be defined, instead was `undefined`.\\nbody.filter.and[0].and[0].last_edited_time should be defined, instead was `undefined`.\\nbody.filter.and[0].and[0].formula should be defined, instead was `undefined`.\\nbody.filter.and[0].and[0].rollup should be defined, instead was `undefined`."}'
+}
+2022-09-16T15:37:06.141Z: main ~ start fetching data...
+2022-09-16T15:37:14.086Z: main ~ ...finish fetching data
+2022-09-16T15:38:22.623Z: main ~ start fetching data...
+2022-09-16T15:38:26.785Z: main ~ ...finish fetching data
+2022-09-16T15:39:10.761Z: main ~ start fetching data...
+2022-09-16T15:39:14.479Z: main ~ ...finish fetching data
+2022-09-16T15:39:35.766Z: main ~ start fetching data...
+2022-09-16T15:39:39.467Z: main ~ ...finish fetching data
+2022-09-16T15:39:39.467Z: main ~ start synchronizing todo Aufgabe 3 with id 6a27f35c-8096-4e81-8345-fbc5f44bdd2f to google...
+2022-09-16T15:39:48.974Z: updateEvent ~ error occured when updating event undefined from calender 2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887@group.calendar.google.com  GaxiosError: Bad Request
+    at Gaxios._request (/Users/maxkleinegger/Desktop/notion-bot/node_modules/gaxios/build/src/gaxios.js:130:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async JWT.requestAsync (/Users/maxkleinegger/Desktop/notion-bot/node_modules/google-auth-library/build/src/auth/oauth2client.js:368:18)
+    at async exports.createEvent (/Users/maxkleinegger/Desktop/notion-bot/googleAPIHelper.js:69:12)
+    at async main (/Users/maxkleinegger/Desktop/notion-bot/notion_automatization_script.js:126:18) {
+  response: {
+    config: {
+      project: '493197103386',
+      url: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events',
+      method: 'POST',
+      userAgentDirectives: [Array],
+      paramsSerializer: [Function (anonymous)],
+      data: [Object],
+      headers: [Object],
+      params: {},
+      validateStatus: [Function (anonymous)],
+      retry: true,
+      body: '{"summary":"Aufgabe 3","description":"Todo","start":{"dateTime":"2022-09-13","timeZone":"Europe/Vienna"},"end":{"dateTime":"2022-09-13","timeZone":"Europe/Vienna"},"reminders":{"useDefault":true},"extendedProperties":{"private":{"synchronizedToNotion":true}}}',
+      responseType: 'json',
+      retryConfig: [Object]
+    },
+    data: { error: [Object] },
+    headers: {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"',
+      'cache-control': 'no-cache, no-store, max-age=0, must-revalidate',
+      connection: 'close',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=UTF-8',
+      date: 'Fri, 16 Sep 2022 15:39:42 GMT',
+      expires: 'Mon, 01 Jan 1990 00:00:00 GMT',
+      pragma: 'no-cache',
+      server: 'ESF',
+      'transfer-encoding': 'chunked',
+      vary: 'Origin, X-Origin, Referer',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'SAMEORIGIN',
+      'x-xss-protection': '0'
+    },
+    status: 400,
+    statusText: 'Bad Request',
+    request: {
+      responseURL: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events'
+    }
+  },
+  config: {
+    project: '493197103386',
+    url: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events',
+    method: 'POST',
+    userAgentDirectives: [ [Object] ],
+    paramsSerializer: [Function (anonymous)],
+    data: {
+      summary: 'Aufgabe 3',
+      description: 'Todo',
+      start: [Object],
+      end: [Object],
+      reminders: [Object],
+      extendedProperties: [Object]
+    },
+    headers: {
+      'x-goog-api-client': 'gdcl/6.0.2 gl-node/18.6.0 auth/8.5.1',
+      'Accept-Encoding': 'gzip',
+      'User-Agent': 'google-api-nodejs-client/6.0.2 (gzip)',
+      Authorization: 'Bearer ya29.c.b0AXv0zTMI_QSCJUHquvuIDFYIIXzXgL5HhEggBpa7OnkIgZq1CcxiqSoeXw5LTMSJ8agK2Oe2XX4ZhDOHOV6o1wjvRupBowdwPYAalRGG6fVpCzgVBzChE977ehjSNXGkNPyWxJBJxQJxXoMqudUqJ1DzcqPXTKF194VHK6b17LD4xph4weyLN7LrRCqWluTXAxnAs4pIfKi_j_ton_ufeozEDqtMZQ.........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................',
+      'Content-Type': 'application/json',
+      Accept: 'application/json'
+    },
+    params: {},
+    validateStatus: [Function (anonymous)],
+    retry: true,
+    body: '{"summary":"Aufgabe 3","description":"Todo","start":{"dateTime":"2022-09-13","timeZone":"Europe/Vienna"},"end":{"dateTime":"2022-09-13","timeZone":"Europe/Vienna"},"reminders":{"useDefault":true},"extendedProperties":{"private":{"synchronizedToNotion":true}}}',
+    responseType: 'json',
+    retryConfig: {
+      currentRetryAttempt: 0,
+      retry: 3,
+      httpMethodsToRetry: [Array],
+      noResponseRetries: 2,
+      statusCodesToRetry: [Array]
+    }
+  },
+  code: 400,
+  errors: [
+    { domain: 'global', reason: 'badRequest', message: 'Bad Request' }
+  ]
+}
+2022-09-16T15:39:53.157Z: main ~ start synchronizing todo Build a Notion Bot with id 0dd97dc8-2db6-4cb2-bf4b-b9bce5ed183c to google...
+2022-09-16T15:40:43.224Z: main ~ start fetching data...
+2022-09-16T15:40:46.698Z: main ~ ...finish fetching data
+2022-09-16T15:40:46.698Z: main ~ start synchronizing todo Aufgabe 3 with id 6a27f35c-8096-4e81-8345-fbc5f44bdd2f to google...
+2022-09-16T15:41:33.599Z: updateEvent ~ error occured when adding event undefined from calender 2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887@group.calendar.google.com  GaxiosError: Bad Request
+    at Gaxios._request (/Users/maxkleinegger/Desktop/notion-bot/node_modules/gaxios/build/src/gaxios.js:130:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async JWT.requestAsync (/Users/maxkleinegger/Desktop/notion-bot/node_modules/google-auth-library/build/src/auth/oauth2client.js:368:18)
+    at async exports.createEvent (/Users/maxkleinegger/Desktop/notion-bot/googleAPIHelper.js:69:12)
+    at async main (/Users/maxkleinegger/Desktop/notion-bot/notion_automatization_script.js:126:18) {
+  response: {
+    config: {
+      project: '493197103386',
+      url: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events',
+      method: 'POST',
+      userAgentDirectives: [Array],
+      paramsSerializer: [Function (anonymous)],
+      data: [Object],
+      headers: [Object],
+      params: {},
+      validateStatus: [Function (anonymous)],
+      retry: true,
+      body: '{"summary":"Aufgabe 3","description":"Todo","start":{"dateTime":"2022-09-13","timeZone":"Europe/Vienna"},"end":{"dateTime":"2022-09-13","timeZone":"Europe/Vienna"},"reminders":{"useDefault":true},"extendedProperties":{"private":{"synchronizedToNotion":true}}}',
+      responseType: 'json',
+      retryConfig: [Object]
+    },
+    data: { error: [Object] },
+    headers: {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"',
+      'cache-control': 'no-cache, no-store, max-age=0, must-revalidate',
+      connection: 'close',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=UTF-8',
+      date: 'Fri, 16 Sep 2022 15:40:49 GMT',
+      expires: 'Mon, 01 Jan 1990 00:00:00 GMT',
+      pragma: 'no-cache',
+      server: 'ESF',
+      'transfer-encoding': 'chunked',
+      vary: 'Origin, X-Origin, Referer',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'SAMEORIGIN',
+      'x-xss-protection': '0'
+    },
+    status: 400,
+    statusText: 'Bad Request',
+    request: {
+      responseURL: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events'
+    }
+  },
+  config: {
+    project: '493197103386',
+    url: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events',
+    method: 'POST',
+    userAgentDirectives: [ [Object] ],
+    paramsSerializer: [Function (anonymous)],
+    data: {
+      summary: 'Aufgabe 3',
+      description: 'Todo',
+      start: [Object],
+      end: [Object],
+      reminders: [Object],
+      extendedProperties: [Object]
+    },
+    headers: {
+      'x-goog-api-client': 'gdcl/6.0.2 gl-node/18.6.0 auth/8.5.1',
+      'Accept-Encoding': 'gzip',
+      'User-Agent': 'google-api-nodejs-client/6.0.2 (gzip)',
+      Authorization: 'Bearer ya29.c.b0AXv0zTOo-mKtJncLH8yBF9qg95afSz0NRmu9sHKuIRc9fmCwb-TVfQTkbMEvCkQqKVPCN9ER4t3j52vR4yyPX5Z4acwEQ0GCQOpcy-a0uFuRm4P8m-5FZ7YEwZ-7-yZQThmPTFHJ1WuaCH2kZcONTUcgZAMDk0hExsPHfOA6DXyySf1lgruZVrNVV-30sMj2CnyLqbQQysIhl33_yaNfeE1r55_o6g.........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................',
+      'Content-Type': 'application/json',
+      Accept: 'application/json'
+    },
+    params: {},
+    validateStatus: [Function (anonymous)],
+    retry: true,
+    body: '{"summary":"Aufgabe 3","description":"Todo","start":{"dateTime":"2022-09-13","timeZone":"Europe/Vienna"},"end":{"dateTime":"2022-09-13","timeZone":"Europe/Vienna"},"reminders":{"useDefault":true},"extendedProperties":{"private":{"synchronizedToNotion":true}}}',
+    responseType: 'json',
+    retryConfig: {
+      currentRetryAttempt: 0,
+      retry: 3,
+      httpMethodsToRetry: [Array],
+      noResponseRetries: 2,
+      statusCodesToRetry: [Array]
+    }
+  },
+  code: 400,
+  errors: [
+    { domain: 'global', reason: 'badRequest', message: 'Bad Request' }
+  ]
+}
+2022-09-16T15:44:05.560Z: main ~ start fetching data...
+2022-09-16T15:44:09.957Z: main ~ ...finish fetching data
+2022-09-16T15:44:09.957Z: main ~ start synchronizing todo Aufgabe 3 with id 6a27f35c-8096-4e81-8345-fbc5f44bdd2f to google...
+2022-09-16T15:44:14.165Z: updateEvent ~ error occured when adding event undefined from calender 2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887@group.calendar.google.com  GaxiosError: Bad Request
+    at Gaxios._request (/Users/maxkleinegger/Desktop/notion-bot/node_modules/gaxios/build/src/gaxios.js:130:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async JWT.requestAsync (/Users/maxkleinegger/Desktop/notion-bot/node_modules/google-auth-library/build/src/auth/oauth2client.js:368:18)
+    at async exports.createEvent (/Users/maxkleinegger/Desktop/notion-bot/googleAPIHelper.js:69:12)
+    at async main (/Users/maxkleinegger/Desktop/notion-bot/notion_automatization_script.js:126:18) {
+  response: {
+    config: {
+      project: '493197103386',
+      url: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events',
+      method: 'POST',
+      userAgentDirectives: [Array],
+      paramsSerializer: [Function (anonymous)],
+      data: [Object],
+      headers: [Object],
+      params: {},
+      validateStatus: [Function (anonymous)],
+      retry: true,
+      body: '{"summary":"Aufgabe 3","description":"Todo","start":{"dateTime":"2022-09-13","timeZone":"Europe/Vienna"},"end":{"dateTime":"2022-09-13","timeZone":"Europe/Vienna"},"reminders":{"useDefault":true},"extendedProperties":{"private":{"synchronizedToNotion":true}}}',
+      responseType: 'json',
+      retryConfig: [Object]
+    },
+    data: { error: [Object] },
+    headers: {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"',
+      'cache-control': 'no-cache, no-store, max-age=0, must-revalidate',
+      connection: 'close',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=UTF-8',
+      date: 'Fri, 16 Sep 2022 15:44:12 GMT',
+      expires: 'Mon, 01 Jan 1990 00:00:00 GMT',
+      pragma: 'no-cache',
+      server: 'ESF',
+      'transfer-encoding': 'chunked',
+      vary: 'Origin, X-Origin, Referer',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'SAMEORIGIN',
+      'x-xss-protection': '0'
+    },
+    status: 400,
+    statusText: 'Bad Request',
+    request: {
+      responseURL: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events'
+    }
+  },
+  config: {
+    project: '493197103386',
+    url: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events',
+    method: 'POST',
+    userAgentDirectives: [ [Object] ],
+    paramsSerializer: [Function (anonymous)],
+    data: {
+      summary: 'Aufgabe 3',
+      description: 'Todo',
+      start: [Object],
+      end: [Object],
+      reminders: [Object],
+      extendedProperties: [Object]
+    },
+    headers: {
+      'x-goog-api-client': 'gdcl/6.0.2 gl-node/18.6.0 auth/8.5.1',
+      'Accept-Encoding': 'gzip',
+      'User-Agent': 'google-api-nodejs-client/6.0.2 (gzip)',
+      Authorization: 'Bearer ya29.c.b0AXv0zTNiKzQIbfX2YLA5NpTMhXjUSopnzV7v3mNJauvBVx8kYwOFMrwy-d36-UMxymZ5s3dDQL2in7DJxU-qsW0R2CcqgYcnPOcWuAeNtEnpmChIKYFy_U2jFR7HhAVPn-xU4KdhAive9sIK8_CO6Z43178-8ZzRLU6GKtRMh5h9pyJNixwU2MgVXKo00o13vNZ_iAIqE3h3lpT5rF_OaZlVav9cQA.........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................',
+      'Content-Type': 'application/json',
+      Accept: 'application/json'
+    },
+    params: {},
+    validateStatus: [Function (anonymous)],
+    retry: true,
+    body: '{"summary":"Aufgabe 3","description":"Todo","start":{"dateTime":"2022-09-13","timeZone":"Europe/Vienna"},"end":{"dateTime":"2022-09-13","timeZone":"Europe/Vienna"},"reminders":{"useDefault":true},"extendedProperties":{"private":{"synchronizedToNotion":true}}}',
+    responseType: 'json',
+    retryConfig: {
+      currentRetryAttempt: 0,
+      retry: 3,
+      httpMethodsToRetry: [Array],
+      noResponseRetries: 2,
+      statusCodesToRetry: [Array]
+    }
+  },
+  code: 400,
+  errors: [
+    { domain: 'global', reason: 'badRequest', message: 'Bad Request' }
+  ]
+}
+2022-09-16T15:48:20.910Z: main ~ start fetching data...
+2022-09-16T15:48:24.803Z: main ~ ...finish fetching data
+2022-09-16T15:48:24.803Z: main ~ start synchronizing todo Aufgabe 3 with id 6a27f35c-8096-4e81-8345-fbc5f44bdd2f to google...
+2022-09-16T16:49:07.233Z: createEvent ~ error occured when adding event undefined from calender 2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887@group.calendar.google.com  GaxiosError: Bad Request
+    at Gaxios._request (/Users/maxkleinegger/Desktop/notion-bot/node_modules/gaxios/build/src/gaxios.js:130:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async JWT.requestAsync (/Users/maxkleinegger/Desktop/notion-bot/node_modules/google-auth-library/build/src/auth/oauth2client.js:368:18)
+    at async exports.createEvent (/Users/maxkleinegger/Desktop/notion-bot/googleAPIHelper.js:69:12)
+    at async main (/Users/maxkleinegger/Desktop/notion-bot/notion_automatization_script.js:126:18) {
+  response: {
+    config: {
+      project: '493197103386',
+      url: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events',
+      method: 'POST',
+      userAgentDirectives: [Array],
+      paramsSerializer: [Function (anonymous)],
+      data: [Object],
+      headers: [Object],
+      params: {},
+      validateStatus: [Function (anonymous)],
+      retry: true,
+      body: '{"summary":"Aufgabe 3","description":"Todo","start":{"dateTime":"2022-09-13","timeZone":"Europe/Vienna"},"end":{"dateTime":"2022-09-13","timeZone":"Europe/Vienna"},"reminders":{"useDefault":true},"extendedProperties":{"private":{"synchronizedToNotion":true}}}',
+      responseType: 'json',
+      retryConfig: [Object]
+    },
+    data: { error: [Object] },
+    headers: {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"',
+      'cache-control': 'no-cache, no-store, max-age=0, must-revalidate',
+      connection: 'close',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=UTF-8',
+      date: 'Fri, 16 Sep 2022 15:48:26 GMT',
+      expires: 'Mon, 01 Jan 1990 00:00:00 GMT',
+      pragma: 'no-cache',
+      server: 'ESF',
+      'transfer-encoding': 'chunked',
+      vary: 'Origin, X-Origin, Referer',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'SAMEORIGIN',
+      'x-xss-protection': '0'
+    },
+    status: 400,
+    statusText: 'Bad Request',
+    request: {
+      responseURL: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events'
+    }
+  },
+  config: {
+    project: '493197103386',
+    url: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events',
+    method: 'POST',
+    userAgentDirectives: [ [Object] ],
+    paramsSerializer: [Function (anonymous)],
+    data: {
+      summary: 'Aufgabe 3',
+      description: 'Todo',
+      start: [Object],
+      end: [Object],
+      reminders: [Object],
+      extendedProperties: [Object]
+    },
+    headers: {
+      'x-goog-api-client': 'gdcl/6.0.2 gl-node/18.6.0 auth/8.5.1',
+      'Accept-Encoding': 'gzip',
+      'User-Agent': 'google-api-nodejs-client/6.0.2 (gzip)',
+      Authorization: 'Bearer ya29.c.b0AXv0zTMXRZqABV-j9haYFEBeQ1IB32OcfYJOCZD252NSc7ztJsEeWKHt9Mo6uUScVCWhvkEi9keqxNb8tRNhxooai_zrz89MUYrJnNW2xhQpUSqRQ1TMY4-f2lsQdOfix_U5S6Yp0XzvPOKcBEJpZSZsEKBVMO_MjS9xsjre9-GL5UISsJyVVWt6xVifmjyDyoCoztkl7hLlPsVd4H50QxE5cfsIXQ.........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................',
+      'Content-Type': 'application/json',
+      Accept: 'application/json'
+    },
+    params: {},
+    validateStatus: [Function (anonymous)],
+    retry: true,
+    body: '{"summary":"Aufgabe 3","description":"Todo","start":{"dateTime":"2022-09-13","timeZone":"Europe/Vienna"},"end":{"dateTime":"2022-09-13","timeZone":"Europe/Vienna"},"reminders":{"useDefault":true},"extendedProperties":{"private":{"synchronizedToNotion":true}}}',
+    responseType: 'json',
+    retryConfig: {
+      currentRetryAttempt: 0,
+      retry: 3,
+      httpMethodsToRetry: [Array],
+      noResponseRetries: 2,
+      statusCodesToRetry: [Array]
+    }
+  },
+  code: 400,
+  errors: [
+    { domain: 'global', reason: 'badRequest', message: 'Bad Request' }
+  ]
+}
+2022-09-16T20:01:07.245Z: main ~ start fetching data...
+2022-09-16T20:01:13.330Z: main ~ ...finish fetching data
+2022-09-16T20:01:13.330Z: main ~ start synchronizing todo Aufgabe 3 with id 6a27f35c-8096-4e81-8345-fbc5f44bdd2f to google...
+2022-09-16T20:19:26.483Z: main ~ start fetching data...
+2022-09-16T20:19:37.956Z: main ~ ...finish fetching data
+2022-09-16T20:20:40.367Z: main ~ start fetching data...
+2022-09-16T20:20:48.953Z: main ~ ...finish fetching data
+2022-09-16T20:20:48.954Z: main ~ start synchronizing todo Aufgabe 3 with id 6a27f35c-8096-4e81-8345-fbc5f44bdd2f to google...
+2022-09-16T20:22:02.829Z: main ~ start fetching data...
+2022-09-16T20:22:12.890Z: main ~ ...finish fetching data
+2022-09-16T20:22:12.890Z: main ~ start synchronizing todo Aufgabe 3 with id 6a27f35c-8096-4e81-8345-fbc5f44bdd2f to google...
+2022-09-16T20:23:09.445Z: main ~ start fetching data...
+2022-09-16T20:23:15.119Z: main ~ ...finish fetching data
+2022-09-16T20:23:15.119Z: main ~ start synchronizing todo Aufgabe 3 with id 6a27f35c-8096-4e81-8345-fbc5f44bdd2f to google...
+2022-09-16T20:24:23.324Z: main ~ start fetching data...
+2022-09-16T20:24:26.136Z: main ~ ...finish fetching data
+2022-09-16T20:24:26.136Z: main ~ start synchronizing todo Aufgabe 3 with id 6a27f35c-8096-4e81-8345-fbc5f44bdd2f to google...
+2022-09-16T20:25:29.175Z: createEvent ~ error occured when adding event undefined from calender 2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887@group.calendar.google.com  GaxiosError: Bad Request
+    at Gaxios._request (/Users/maxkleinegger/Desktop/notion-bot/node_modules/gaxios/build/src/gaxios.js:130:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async JWT.requestAsync (/Users/maxkleinegger/Desktop/notion-bot/node_modules/google-auth-library/build/src/auth/oauth2client.js:368:18)
+    at async exports.createEvent (/Users/maxkleinegger/Desktop/notion-bot/googleAPIHelper.js:75:12)
+    at async main (/Users/maxkleinegger/Desktop/notion-bot/notion_automatization_script.js:127:18) {
+  response: {
+    config: {
+      project: '493197103386',
+      url: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events',
+      method: 'POST',
+      userAgentDirectives: [Array],
+      paramsSerializer: [Function (anonymous)],
+      data: [Object],
+      headers: [Object],
+      params: {},
+      validateStatus: [Function (anonymous)],
+      retry: true,
+      body: '{"end":{"dateTime":"2022-09-13T23:59:99","timeZone":"Europe/Vienna"},"start":{"dateTime":"2022-09-13T23:59:99","timeZone":"Europe/Vienna"},"extendedProperties":{"private":{"synchronizedToNotion":true}},"summary":"Abgabe - Aufgabe 3","reminders":{"useDefault":true},"description":"Todo - https://www.notion.so/Aufgabe-3-6a27f35c80964e818345fbc5f44bdd2f"}',
+      responseType: 'json',
+      retryConfig: [Object]
+    },
+    data: { error: [Object] },
+    headers: {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"',
+      'cache-control': 'no-cache, no-store, max-age=0, must-revalidate',
+      connection: 'close',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=UTF-8',
+      date: 'Fri, 16 Sep 2022 20:24:55 GMT',
+      expires: 'Mon, 01 Jan 1990 00:00:00 GMT',
+      pragma: 'no-cache',
+      server: 'ESF',
+      'transfer-encoding': 'chunked',
+      vary: 'Origin, X-Origin, Referer',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'SAMEORIGIN',
+      'x-xss-protection': '0'
+    },
+    status: 400,
+    statusText: 'Bad Request',
+    request: {
+      responseURL: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events'
+    }
+  },
+  config: {
+    project: '493197103386',
+    url: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events',
+    method: 'POST',
+    userAgentDirectives: [ [Object] ],
+    paramsSerializer: [Function (anonymous)],
+    data: {
+      end: [Object],
+      start: [Object],
+      extendedProperties: [Object],
+      summary: 'Abgabe - Aufgabe 3',
+      reminders: [Object],
+      description: 'Todo - https://www.notion.so/Aufgabe-3-6a27f35c80964e818345fbc5f44bdd2f'
+    },
+    headers: {
+      'x-goog-api-client': 'gdcl/6.0.2 gl-node/18.6.0 auth/8.5.1',
+      'Accept-Encoding': 'gzip',
+      'User-Agent': 'google-api-nodejs-client/6.0.2 (gzip)',
+      Authorization: 'Bearer ya29.c.b0AXv0zTMlB78EoCfbkj-o4AF4bZFO7PixbD2Uel9W3zB4Brpkn1cHDm-OnWPhLi7JXYAg-n4j1EEgRyq36KjggVL3BNMH_tTKrEOx4E9oXPCxQmoOJvBpdrJMAMN2n2SUHXxgxy50SH46byquYs2Cql9oxU0Dy13n36C0fv-BARvEkaJAd6iVNCvjExBbprrKFMGGBSF9mgXDJuDZRI48QV7kgxSvfA.........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................',
+      'Content-Type': 'application/json',
+      Accept: 'application/json'
+    },
+    params: {},
+    validateStatus: [Function (anonymous)],
+    retry: true,
+    body: '{"end":{"dateTime":"2022-09-13T23:59:99","timeZone":"Europe/Vienna"},"start":{"dateTime":"2022-09-13T23:59:99","timeZone":"Europe/Vienna"},"extendedProperties":{"private":{"synchronizedToNotion":true}},"summary":"Abgabe - Aufgabe 3","reminders":{"useDefault":true},"description":"Todo - https://www.notion.so/Aufgabe-3-6a27f35c80964e818345fbc5f44bdd2f"}',
+    responseType: 'json',
+    retryConfig: {
+      currentRetryAttempt: 0,
+      retry: 3,
+      httpMethodsToRetry: [Array],
+      noResponseRetries: 2,
+      statusCodesToRetry: [Array]
+    }
+  },
+  code: 400,
+  errors: [
+    { domain: 'global', reason: 'badRequest', message: 'Bad Request' }
+  ]
+}
+2022-09-16T20:25:29.182Z: main ~ start synchronizing todo Build a Notion Bot with id 0dd97dc8-2db6-4cb2-bf4b-b9bce5ed183c to google...
+2022-09-16T20:27:19.680Z: main ~ start fetching data...
+2022-09-16T20:27:24.128Z: main ~ ...finish fetching data
+2022-09-16T20:27:24.128Z: main ~ start synchronizing todo Aufgabe 3 with id 6a27f35c-8096-4e81-8345-fbc5f44bdd2f to google...
+2022-09-16T20:27:33.225Z: createEvent ~ error occured when adding event undefined from calender 2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887@group.calendar.google.com  GaxiosError: Bad Request
+    at Gaxios._request (/Users/maxkleinegger/Desktop/notion-bot/node_modules/gaxios/build/src/gaxios.js:130:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async JWT.requestAsync (/Users/maxkleinegger/Desktop/notion-bot/node_modules/google-auth-library/build/src/auth/oauth2client.js:368:18)
+    at async exports.createEvent (/Users/maxkleinegger/Desktop/notion-bot/googleAPIHelper.js:75:12)
+    at async main (/Users/maxkleinegger/Desktop/notion-bot/notion_automatization_script.js:127:18) {
+  response: {
+    config: {
+      project: '493197103386',
+      url: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events',
+      method: 'POST',
+      userAgentDirectives: [Array],
+      paramsSerializer: [Function (anonymous)],
+      data: [Object],
+      headers: [Object],
+      params: {},
+      validateStatus: [Function (anonymous)],
+      retry: true,
+      body: '{"end":{"dateTime":"2022-09-13T23:59:99","timeZone":"Europe/Vienna"},"start":{"dateTime":"2022-09-13T23:59:99","timeZone":"Europe/Vienna"},"extendedProperties":{"private":{"synchronizedToNotion":true}},"summary":"Abgabe - Aufgabe 3","reminders":{"useDefault":true},"description":"Todo - https://www.notion.so/Aufgabe-3-6a27f35c80964e818345fbc5f44bdd2f"}',
+      responseType: 'json',
+      retryConfig: [Object]
+    },
+    data: { error: [Object] },
+    headers: {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"',
+      'cache-control': 'no-cache, no-store, max-age=0, must-revalidate',
+      connection: 'close',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=UTF-8',
+      date: 'Fri, 16 Sep 2022 20:27:33 GMT',
+      expires: 'Mon, 01 Jan 1990 00:00:00 GMT',
+      pragma: 'no-cache',
+      server: 'ESF',
+      'transfer-encoding': 'chunked',
+      vary: 'Origin, X-Origin, Referer',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'SAMEORIGIN',
+      'x-xss-protection': '0'
+    },
+    status: 400,
+    statusText: 'Bad Request',
+    request: {
+      responseURL: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events'
+    }
+  },
+  config: {
+    project: '493197103386',
+    url: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events',
+    method: 'POST',
+    userAgentDirectives: [ [Object] ],
+    paramsSerializer: [Function (anonymous)],
+    data: {
+      end: [Object],
+      start: [Object],
+      extendedProperties: [Object],
+      summary: 'Abgabe - Aufgabe 3',
+      reminders: [Object],
+      description: 'Todo - https://www.notion.so/Aufgabe-3-6a27f35c80964e818345fbc5f44bdd2f'
+    },
+    headers: {
+      'x-goog-api-client': 'gdcl/6.0.2 gl-node/18.6.0 auth/8.5.1',
+      'Accept-Encoding': 'gzip',
+      'User-Agent': 'google-api-nodejs-client/6.0.2 (gzip)',
+      Authorization: 'Bearer ya29.c.b0AXv0zTM0TyzqM4cMzeQLR4D_AxeyJzGFNwvDh7vITurKuuIlOTU8xS0F1jZfXvg2t7MElHNrNSjQJ3baRkyta33zt8vYLBiRUtSuxdEFDgw29tG2n0m7l75AztAgA2RBCtIBRiTqsyv9MV5xxAqaJeYidbJccZx_mvAoItF_wxBDHAA7ZCRaP-Q0W7wacygxVPNzMztw8X-nxEFanoMrWMrjSRKTgQ.........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................',
+      'Content-Type': 'application/json',
+      Accept: 'application/json'
+    },
+    params: {},
+    validateStatus: [Function (anonymous)],
+    retry: true,
+    body: '{"end":{"dateTime":"2022-09-13T23:59:99","timeZone":"Europe/Vienna"},"start":{"dateTime":"2022-09-13T23:59:99","timeZone":"Europe/Vienna"},"extendedProperties":{"private":{"synchronizedToNotion":true}},"summary":"Abgabe - Aufgabe 3","reminders":{"useDefault":true},"description":"Todo - https://www.notion.so/Aufgabe-3-6a27f35c80964e818345fbc5f44bdd2f"}',
+    responseType: 'json',
+    retryConfig: {
+      currentRetryAttempt: 0,
+      retry: 3,
+      httpMethodsToRetry: [Array],
+      noResponseRetries: 2,
+      statusCodesToRetry: [Array]
+    }
+  },
+  code: 400,
+  errors: [
+    { domain: 'global', reason: 'badRequest', message: 'Bad Request' }
+  ]
+}
+2022-09-16T20:27:33.230Z: main ~ start synchronizing todo Build a Notion Bot with id 0dd97dc8-2db6-4cb2-bf4b-b9bce5ed183c to google...
+2022-09-16T20:27:53.151Z: createEvent ~ error occured when adding event undefined from calender 2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887@group.calendar.google.com  GaxiosError: Bad Request
+    at Gaxios._request (/Users/maxkleinegger/Desktop/notion-bot/node_modules/gaxios/build/src/gaxios.js:130:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async JWT.requestAsync (/Users/maxkleinegger/Desktop/notion-bot/node_modules/google-auth-library/build/src/auth/oauth2client.js:368:18)
+    at async exports.createEvent (/Users/maxkleinegger/Desktop/notion-bot/googleAPIHelper.js:75:12)
+    at async main (/Users/maxkleinegger/Desktop/notion-bot/notion_automatization_script.js:127:18) {
+  response: {
+    config: {
+      project: '493197103386',
+      url: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events',
+      method: 'POST',
+      userAgentDirectives: [Array],
+      paramsSerializer: [Function (anonymous)],
+      data: [Object],
+      headers: [Object],
+      params: {},
+      validateStatus: [Function (anonymous)],
+      retry: true,
+      body: '{"end":{"dateTime":"2022-09-30T00:00:00.000+02:00T23:59:99","timeZone":"Europe/Vienna"},"start":{"dateTime":"2022-09-30T00:00:00.000+02:00T23:59:99","timeZone":"Europe/Vienna"},"extendedProperties":{"private":{"synchronizedToNotion":true}},"summary":"Abgabe - Build a Notion Bot","reminders":{"useDefault":true},"description":"Todo - https://www.notion.so/Build-a-Notion-Bot-0dd97dc82db64cb2bf4bb9bce5ed183c"}',
+      responseType: 'json',
+      retryConfig: [Object]
+    },
+    data: { error: [Object] },
+    headers: {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"',
+      'cache-control': 'no-cache, no-store, max-age=0, must-revalidate',
+      connection: 'close',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=UTF-8',
+      date: 'Fri, 16 Sep 2022 20:27:53 GMT',
+      expires: 'Mon, 01 Jan 1990 00:00:00 GMT',
+      pragma: 'no-cache',
+      server: 'ESF',
+      'transfer-encoding': 'chunked',
+      vary: 'Origin, X-Origin, Referer',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'SAMEORIGIN',
+      'x-xss-protection': '0'
+    },
+    status: 400,
+    statusText: 'Bad Request',
+    request: {
+      responseURL: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events'
+    }
+  },
+  config: {
+    project: '493197103386',
+    url: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events',
+    method: 'POST',
+    userAgentDirectives: [ [Object] ],
+    paramsSerializer: [Function (anonymous)],
+    data: {
+      end: [Object],
+      start: [Object],
+      extendedProperties: [Object],
+      summary: 'Abgabe - Build a Notion Bot',
+      reminders: [Object],
+      description: 'Todo - https://www.notion.so/Build-a-Notion-Bot-0dd97dc82db64cb2bf4bb9bce5ed183c'
+    },
+    headers: {
+      'x-goog-api-client': 'gdcl/6.0.2 gl-node/18.6.0 auth/8.5.1',
+      'Accept-Encoding': 'gzip',
+      'User-Agent': 'google-api-nodejs-client/6.0.2 (gzip)',
+      Authorization: 'Bearer ya29.c.b0AXv0zTM0TyzqM4cMzeQLR4D_AxeyJzGFNwvDh7vITurKuuIlOTU8xS0F1jZfXvg2t7MElHNrNSjQJ3baRkyta33zt8vYLBiRUtSuxdEFDgw29tG2n0m7l75AztAgA2RBCtIBRiTqsyv9MV5xxAqaJeYidbJccZx_mvAoItF_wxBDHAA7ZCRaP-Q0W7wacygxVPNzMztw8X-nxEFanoMrWMrjSRKTgQ.........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................',
+      'Content-Type': 'application/json',
+      Accept: 'application/json'
+    },
+    params: {},
+    validateStatus: [Function (anonymous)],
+    retry: true,
+    body: '{"end":{"dateTime":"2022-09-30T00:00:00.000+02:00T23:59:99","timeZone":"Europe/Vienna"},"start":{"dateTime":"2022-09-30T00:00:00.000+02:00T23:59:99","timeZone":"Europe/Vienna"},"extendedProperties":{"private":{"synchronizedToNotion":true}},"summary":"Abgabe - Build a Notion Bot","reminders":{"useDefault":true},"description":"Todo - https://www.notion.so/Build-a-Notion-Bot-0dd97dc82db64cb2bf4bb9bce5ed183c"}',
+    responseType: 'json',
+    retryConfig: {
+      currentRetryAttempt: 0,
+      retry: 3,
+      httpMethodsToRetry: [Array],
+      noResponseRetries: 2,
+      statusCodesToRetry: [Array]
+    }
+  },
+  code: 400,
+  errors: [
+    { domain: 'global', reason: 'badRequest', message: 'Bad Request' }
+  ]
+}
+2022-09-16T20:31:16.790Z: main ~ start fetching data...
+2022-09-16T20:31:19.934Z: main ~ ...finish fetching data
+2022-09-16T20:33:22.786Z: main ~ start fetching data...
+2022-09-16T20:33:28.758Z: main ~ ...finish fetching data
+2022-09-16T20:33:38.689Z: main ~ start fetching data...
+2022-09-16T20:33:43.377Z: main ~ ...finish fetching data
+2022-09-16T20:35:41.018Z: main ~ start fetching data...
+2022-09-16T20:35:50.711Z: main ~ ...finish fetching data
+2022-09-16T20:36:00.121Z: main ~ start fetching data...
+2022-09-16T20:36:04.302Z: main ~ ...finish fetching data
+2022-09-16T20:36:51.226Z: main ~ start fetching data...
+2022-09-16T20:36:55.874Z: main ~ ...finish fetching data
+2022-09-16T20:45:50.449Z: main ~ start fetching data...
+2022-09-16T20:46:11.281Z: main ~ ...finish fetching data
+2022-09-16T20:46:11.282Z: main ~ start synchronizing todo Aufgabe 3 with id 6a27f35c-8096-4e81-8345-fbc5f44bdd2f to google...
+2022-09-16T20:46:31.879Z: createEvent ~ error occured when adding event undefined from calender 2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887@group.calendar.google.com  GaxiosError: Bad Request
+    at Gaxios._request (/Users/maxkleinegger/Desktop/notion-bot/node_modules/gaxios/build/src/gaxios.js:130:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async JWT.requestAsync (/Users/maxkleinegger/Desktop/notion-bot/node_modules/google-auth-library/build/src/auth/oauth2client.js:368:18)
+    at async exports.createEvent (/Users/maxkleinegger/Desktop/notion-bot/googleAPIHelper.js:75:12)
+    at async main (/Users/maxkleinegger/Desktop/notion-bot/notion_automatization_script.js:131:18) {
+  response: {
+    config: {
+      project: '493197103386',
+      url: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events',
+      method: 'POST',
+      userAgentDirectives: [Array],
+      paramsSerializer: [Function (anonymous)],
+      data: [Object],
+      headers: [Object],
+      params: {},
+      validateStatus: [Function (anonymous)],
+      retry: true,
+      body: '{"end":{"dateTime":"2022-09-13T23:59:99","timeZone":"Europe/Vienna"},"start":{"dateTime":"2022-09-13T23:59:99","timeZone":"Europe/Vienna"},"extendedProperties":{"private":{"synchronizedToNotion":true}},"summary":"Abgabe - Betriebssysteme - Aufgabe 3","reminders":{"useDefault":true},"description":"Todo - https://www.notion.so/Aufgabe-3-6a27f35c80964e818345fbc5f44bdd2f"}',
+      responseType: 'json',
+      retryConfig: [Object]
+    },
+    data: { error: [Object] },
+    headers: {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"',
+      'cache-control': 'no-cache, no-store, max-age=0, must-revalidate',
+      connection: 'close',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=UTF-8',
+      date: 'Fri, 16 Sep 2022 20:46:30 GMT',
+      expires: 'Mon, 01 Jan 1990 00:00:00 GMT',
+      pragma: 'no-cache',
+      server: 'ESF',
+      'transfer-encoding': 'chunked',
+      vary: 'Origin, X-Origin, Referer',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'SAMEORIGIN',
+      'x-xss-protection': '0'
+    },
+    status: 400,
+    statusText: 'Bad Request',
+    request: {
+      responseURL: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events'
+    }
+  },
+  config: {
+    project: '493197103386',
+    url: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events',
+    method: 'POST',
+    userAgentDirectives: [ [Object] ],
+    paramsSerializer: [Function (anonymous)],
+    data: {
+      end: [Object],
+      start: [Object],
+      extendedProperties: [Object],
+      summary: 'Abgabe - Betriebssysteme - Aufgabe 3',
+      reminders: [Object],
+      description: 'Todo - https://www.notion.so/Aufgabe-3-6a27f35c80964e818345fbc5f44bdd2f'
+    },
+    headers: {
+      'x-goog-api-client': 'gdcl/6.0.2 gl-node/18.6.0 auth/8.5.1',
+      'Accept-Encoding': 'gzip',
+      'User-Agent': 'google-api-nodejs-client/6.0.2 (gzip)',
+      Authorization: 'Bearer ya29.c.b0AXv0zTPzwW0cPWLFebQopksoNCvTWEi2WQiWKMTNjhJzy1SiooS7u5QwcSkJ_LWazdHtP61RTLX-2luFCAoiLNVrduXV2hiJoY-wYZBGUBbJcJ54O149GtffpUmvs1KezbJcB68pfUh__EPzSLwTdQ7mWf77Ic_sG_vxYlpw6KgqkWiL3cPDPuQ41FO5qyPvG1KyQkQtV5-23t6FLGYWIT2OBGG5wQ.........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................',
+      'Content-Type': 'application/json',
+      Accept: 'application/json'
+    },
+    params: {},
+    validateStatus: [Function (anonymous)],
+    retry: true,
+    body: '{"end":{"dateTime":"2022-09-13T23:59:99","timeZone":"Europe/Vienna"},"start":{"dateTime":"2022-09-13T23:59:99","timeZone":"Europe/Vienna"},"extendedProperties":{"private":{"synchronizedToNotion":true}},"summary":"Abgabe - Betriebssysteme - Aufgabe 3","reminders":{"useDefault":true},"description":"Todo - https://www.notion.so/Aufgabe-3-6a27f35c80964e818345fbc5f44bdd2f"}',
+    responseType: 'json',
+    retryConfig: {
+      currentRetryAttempt: 0,
+      retry: 3,
+      httpMethodsToRetry: [Array],
+      noResponseRetries: 2,
+      statusCodesToRetry: [Array]
+    }
+  },
+  code: 400,
+  errors: [
+    { domain: 'global', reason: 'badRequest', message: 'Bad Request' }
+  ]
+}
+2022-09-16T20:47:23.952Z: main ~ start fetching data...
+2022-09-16T20:47:30.276Z: main ~ ...finish fetching data
+2022-09-16T20:47:30.276Z: main ~ start synchronizing todo Aufgabe 3 with id 6a27f35c-8096-4e81-8345-fbc5f44bdd2f to google...
+2022-09-16T20:47:39.547Z: createEvent ~ error occured when adding event undefined from calender 2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887@group.calendar.google.com  GaxiosError: Bad Request
+    at Gaxios._request (/Users/maxkleinegger/Desktop/notion-bot/node_modules/gaxios/build/src/gaxios.js:130:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async JWT.requestAsync (/Users/maxkleinegger/Desktop/notion-bot/node_modules/google-auth-library/build/src/auth/oauth2client.js:368:18)
+    at async exports.createEvent (/Users/maxkleinegger/Desktop/notion-bot/googleAPIHelper.js:75:12)
+    at async main (/Users/maxkleinegger/Desktop/notion-bot/notion_automatization_script.js:133:18) {
+  response: {
+    config: {
+      project: '493197103386',
+      url: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events',
+      method: 'POST',
+      userAgentDirectives: [Array],
+      paramsSerializer: [Function (anonymous)],
+      data: [Object],
+      headers: [Object],
+      params: {},
+      validateStatus: [Function (anonymous)],
+      retry: true,
+      body: '{"end":{"dateTime":"2022-09-13T23:59:99","timeZone":"Europe/Vienna"},"start":{"dateTime":"2022-09-13T23:59:99","timeZone":"Europe/Vienna"},"extendedProperties":{"private":{"synchronizedToNotion":true}},"summary":"Abgabe - Betriebssysteme - Aufgabe 3","reminders":{"useDefault":true},"description":"Todo - https://www.notion.so/Aufgabe-3-6a27f35c80964e818345fbc5f44bdd2f"}',
+      responseType: 'json',
+      retryConfig: [Object]
+    },
+    data: { error: [Object] },
+    headers: {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"',
+      'cache-control': 'no-cache, no-store, max-age=0, must-revalidate',
+      connection: 'close',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=UTF-8',
+      date: 'Fri, 16 Sep 2022 20:47:39 GMT',
+      expires: 'Mon, 01 Jan 1990 00:00:00 GMT',
+      pragma: 'no-cache',
+      server: 'ESF',
+      'transfer-encoding': 'chunked',
+      vary: 'Origin, X-Origin, Referer',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'SAMEORIGIN',
+      'x-xss-protection': '0'
+    },
+    status: 400,
+    statusText: 'Bad Request',
+    request: {
+      responseURL: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events'
+    }
+  },
+  config: {
+    project: '493197103386',
+    url: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events',
+    method: 'POST',
+    userAgentDirectives: [ [Object] ],
+    paramsSerializer: [Function (anonymous)],
+    data: {
+      end: [Object],
+      start: [Object],
+      extendedProperties: [Object],
+      summary: 'Abgabe - Betriebssysteme - Aufgabe 3',
+      reminders: [Object],
+      description: 'Todo - https://www.notion.so/Aufgabe-3-6a27f35c80964e818345fbc5f44bdd2f'
+    },
+    headers: {
+      'x-goog-api-client': 'gdcl/6.0.2 gl-node/18.6.0 auth/8.5.1',
+      'Accept-Encoding': 'gzip',
+      'User-Agent': 'google-api-nodejs-client/6.0.2 (gzip)',
+      Authorization: 'Bearer ya29.c.b0AXv0zTOOAK3aAIPgmzYr2Qq5MD00Q3ZUhj9TWXtLQRNHSrZZkDsb8kGZStQKQa_vUG5F7zz_64bAmMyzLjr_RdQ9G2LKnAEMi5eERoZPkw7oJ0jDnboHzlS_eDdB16YLjJ_AqrVBhmcVbzeLmVxBsPLjjjWNrnPhxsdwlL_mSJshxolt_-o_-QcUMxtg07NP2wRaNnqKu6lyrqpNylGsVO2K6MSqxg.........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................',
+      'Content-Type': 'application/json',
+      Accept: 'application/json'
+    },
+    params: {},
+    validateStatus: [Function (anonymous)],
+    retry: true,
+    body: '{"end":{"dateTime":"2022-09-13T23:59:99","timeZone":"Europe/Vienna"},"start":{"dateTime":"2022-09-13T23:59:99","timeZone":"Europe/Vienna"},"extendedProperties":{"private":{"synchronizedToNotion":true}},"summary":"Abgabe - Betriebssysteme - Aufgabe 3","reminders":{"useDefault":true},"description":"Todo - https://www.notion.so/Aufgabe-3-6a27f35c80964e818345fbc5f44bdd2f"}',
+    responseType: 'json',
+    retryConfig: {
+      currentRetryAttempt: 0,
+      retry: 3,
+      httpMethodsToRetry: [Array],
+      noResponseRetries: 2,
+      statusCodesToRetry: [Array]
+    }
+  },
+  code: 400,
+  errors: [
+    { domain: 'global', reason: 'badRequest', message: 'Bad Request' }
+  ]
+}
+2022-09-16T20:48:02.058Z: main ~ start fetching data...
+2022-09-16T20:48:07.414Z: main ~ ...finish fetching data
+2022-09-16T20:48:07.415Z: main ~ start synchronizing todo Aufgabe 3 with id 6a27f35c-8096-4e81-8345-fbc5f44bdd2f to google...
+2022-09-16T20:48:13.456Z: createEvent ~ error occured when adding event undefined from calender 2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887@group.calendar.google.com  GaxiosError: Bad Request
+    at Gaxios._request (/Users/maxkleinegger/Desktop/notion-bot/node_modules/gaxios/build/src/gaxios.js:130:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async JWT.requestAsync (/Users/maxkleinegger/Desktop/notion-bot/node_modules/google-auth-library/build/src/auth/oauth2client.js:368:18)
+    at async exports.createEvent (/Users/maxkleinegger/Desktop/notion-bot/googleAPIHelper.js:75:12)
+    at async main (/Users/maxkleinegger/Desktop/notion-bot/notion_automatization_script.js:128:18) {
+  response: {
+    config: {
+      project: '493197103386',
+      url: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events',
+      method: 'POST',
+      userAgentDirectives: [Array],
+      paramsSerializer: [Function (anonymous)],
+      data: [Object],
+      headers: [Object],
+      params: {},
+      validateStatus: [Function (anonymous)],
+      retry: true,
+      body: '{"end":{"dateTime":"2022-09-13T23:59:99","timeZone":"Europe/Vienna"},"start":{"dateTime":"2022-09-13T23:59:99","timeZone":"Europe/Vienna"},"extendedProperties":{"private":{"synchronizedToNotion":true}},"summary":"Abgabe - Aufgabe 3","reminders":{"useDefault":true},"description":"Todo - https://www.notion.so/Aufgabe-3-6a27f35c80964e818345fbc5f44bdd2f"}',
+      responseType: 'json',
+      retryConfig: [Object]
+    },
+    data: { error: [Object] },
+    headers: {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"',
+      'cache-control': 'no-cache, no-store, max-age=0, must-revalidate',
+      connection: 'close',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=UTF-8',
+      date: 'Fri, 16 Sep 2022 20:48:13 GMT',
+      expires: 'Mon, 01 Jan 1990 00:00:00 GMT',
+      pragma: 'no-cache',
+      server: 'ESF',
+      'transfer-encoding': 'chunked',
+      vary: 'Origin, X-Origin, Referer',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'SAMEORIGIN',
+      'x-xss-protection': '0'
+    },
+    status: 400,
+    statusText: 'Bad Request',
+    request: {
+      responseURL: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events'
+    }
+  },
+  config: {
+    project: '493197103386',
+    url: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events',
+    method: 'POST',
+    userAgentDirectives: [ [Object] ],
+    paramsSerializer: [Function (anonymous)],
+    data: {
+      end: [Object],
+      start: [Object],
+      extendedProperties: [Object],
+      summary: 'Abgabe - Aufgabe 3',
+      reminders: [Object],
+      description: 'Todo - https://www.notion.so/Aufgabe-3-6a27f35c80964e818345fbc5f44bdd2f'
+    },
+    headers: {
+      'x-goog-api-client': 'gdcl/6.0.2 gl-node/18.6.0 auth/8.5.1',
+      'Accept-Encoding': 'gzip',
+      'User-Agent': 'google-api-nodejs-client/6.0.2 (gzip)',
+      Authorization: 'Bearer ya29.c.b0AXv0zTNlZ62cpKux127uVsXnGRMoYvpB63muuNPntL5UQ03ixueisE5Zpv0WuKNG-c4WuBzAVLwg0qD6Gz-td1aqTESjwSbuVx14FTsOR3rgrNvKw1E-xXV1IwOeJzLHEVEyZxbpOS1eULrcKqw3UyunUWUnJXgEbSurlvFfjAzoyciBHEljoIAVx8SwZ7lwlWjOCmCxS3MRIo-3zq9Znpk0xhIBxQ.........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................',
+      'Content-Type': 'application/json',
+      Accept: 'application/json'
+    },
+    params: {},
+    validateStatus: [Function (anonymous)],
+    retry: true,
+    body: '{"end":{"dateTime":"2022-09-13T23:59:99","timeZone":"Europe/Vienna"},"start":{"dateTime":"2022-09-13T23:59:99","timeZone":"Europe/Vienna"},"extendedProperties":{"private":{"synchronizedToNotion":true}},"summary":"Abgabe - Aufgabe 3","reminders":{"useDefault":true},"description":"Todo - https://www.notion.so/Aufgabe-3-6a27f35c80964e818345fbc5f44bdd2f"}',
+    responseType: 'json',
+    retryConfig: {
+      currentRetryAttempt: 0,
+      retry: 3,
+      httpMethodsToRetry: [Array],
+      noResponseRetries: 2,
+      statusCodesToRetry: [Array]
+    }
+  },
+  code: 400,
+  errors: [
+    { domain: 'global', reason: 'badRequest', message: 'Bad Request' }
+  ]
+}
+2022-09-16T20:49:52.314Z: main ~ start fetching data...
+2022-09-16T20:50:00.931Z: main ~ ...finish fetching data
+2022-09-16T20:50:00.931Z: main ~ start synchronizing todo Aufgabe 3 with id 6a27f35c-8096-4e81-8345-fbc5f44bdd2f to google...
+2022-09-16T20:50:11.457Z: createEvent ~ error occured when adding event undefined from calender 2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887@group.calendar.google.com  GaxiosError: Bad Request
+    at Gaxios._request (/Users/maxkleinegger/Desktop/notion-bot/node_modules/gaxios/build/src/gaxios.js:130:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async JWT.requestAsync (/Users/maxkleinegger/Desktop/notion-bot/node_modules/google-auth-library/build/src/auth/oauth2client.js:368:18)
+    at async exports.createEvent (/Users/maxkleinegger/Desktop/notion-bot/googleAPIHelper.js:75:12)
+    at async main (/Users/maxkleinegger/Desktop/notion-bot/notion_automatization_script.js:128:18) {
+  response: {
+    config: {
+      project: '493197103386',
+      url: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events',
+      method: 'POST',
+      userAgentDirectives: [Array],
+      paramsSerializer: [Function (anonymous)],
+      data: [Object],
+      headers: [Object],
+      params: {},
+      validateStatus: [Function (anonymous)],
+      retry: true,
+      body: '{"end":{"dateTime":"2022-09-13T23:59:99","timeZone":"Europe/Vienna"},"start":{"dateTime":"2022-09-13T23:59:99","timeZone":"Europe/Vienna"},"extendedProperties":{"private":{"synchronizedToNotion":true}},"summary":"Abgabe - Aufgabe 3","reminders":{"useDefault":true},"description":"Todo - https://www.notion.so/Aufgabe-3-6a27f35c80964e818345fbc5f44bdd2f"}',
+      responseType: 'json',
+      retryConfig: [Object]
+    },
+    data: { error: [Object] },
+    headers: {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"',
+      'cache-control': 'no-cache, no-store, max-age=0, must-revalidate',
+      connection: 'close',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=UTF-8',
+      date: 'Fri, 16 Sep 2022 20:50:10 GMT',
+      expires: 'Mon, 01 Jan 1990 00:00:00 GMT',
+      pragma: 'no-cache',
+      server: 'ESF',
+      'transfer-encoding': 'chunked',
+      vary: 'Origin, X-Origin, Referer',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'SAMEORIGIN',
+      'x-xss-protection': '0'
+    },
+    status: 400,
+    statusText: 'Bad Request',
+    request: {
+      responseURL: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events'
+    }
+  },
+  config: {
+    project: '493197103386',
+    url: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events',
+    method: 'POST',
+    userAgentDirectives: [ [Object] ],
+    paramsSerializer: [Function (anonymous)],
+    data: {
+      end: [Object],
+      start: [Object],
+      extendedProperties: [Object],
+      summary: 'Abgabe - Aufgabe 3',
+      reminders: [Object],
+      description: 'Todo - https://www.notion.so/Aufgabe-3-6a27f35c80964e818345fbc5f44bdd2f'
+    },
+    headers: {
+      'x-goog-api-client': 'gdcl/6.0.2 gl-node/18.6.0 auth/8.5.1',
+      'Accept-Encoding': 'gzip',
+      'User-Agent': 'google-api-nodejs-client/6.0.2 (gzip)',
+      Authorization: 'Bearer ya29.c.b0AXv0zTP8WjJrCML11BpkHh2Ob5yfVFj2o6qhDZ1ErlFk8nppkOQRaHWbv5SXxfvJeoNyX4uFmw0IWgi3A14SWaC2yfUbj4YccXB78E6lypkgw11r2mxUC4ykyeAkzBX28I2thtdF6H-qOWlRkEmMPPoduy5jtOCITtYl3lfmN9TtoTzaZtd6DXAlARKUU3dfnOwuTng5xKWYSpw27qjIuxXU2iBMJg.........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................',
+      'Content-Type': 'application/json',
+      Accept: 'application/json'
+    },
+    params: {},
+    validateStatus: [Function (anonymous)],
+    retry: true,
+    body: '{"end":{"dateTime":"2022-09-13T23:59:99","timeZone":"Europe/Vienna"},"start":{"dateTime":"2022-09-13T23:59:99","timeZone":"Europe/Vienna"},"extendedProperties":{"private":{"synchronizedToNotion":true}},"summary":"Abgabe - Aufgabe 3","reminders":{"useDefault":true},"description":"Todo - https://www.notion.so/Aufgabe-3-6a27f35c80964e818345fbc5f44bdd2f"}',
+    responseType: 'json',
+    retryConfig: {
+      currentRetryAttempt: 0,
+      retry: 3,
+      httpMethodsToRetry: [Array],
+      noResponseRetries: 2,
+      statusCodesToRetry: [Array]
+    }
+  },
+  code: 400,
+  errors: [
+    { domain: 'global', reason: 'badRequest', message: 'Bad Request' }
+  ]
+}
+2022-09-16T20:50:11.463Z: main ~ start synchronizing todo Build a Notion Bot with id 0dd97dc8-2db6-4cb2-bf4b-b9bce5ed183c to google...
+2022-09-16T20:50:49.919Z: updatePage ~ error occured when updating page 0dd97dc8-2db6-4cb2-bf4b-b9bce5ed183c for databaseId 0cfbb67c-44a4-437a-b272-34484d01c61c  APIResponseError: path failed validation: path.page_id should be a valid uuid, instead was `"undefined"`.
+    at buildRequestError (/Users/maxkleinegger/Desktop/notion-bot/node_modules/@notionhq/client/build/src/errors.js:162:16)
+    at Client.request (/Users/maxkleinegger/Desktop/notion-bot/node_modules/@notionhq/client/build/src/Client.js:342:54)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async exports.updatePage (/Users/maxkleinegger/Desktop/notion-bot/notionAPIHelper.js:54:12)
+    at async main (/Users/maxkleinegger/Desktop/notion-bot/notion_automatization_script.js:136:7) {
+  code: 'validation_error',
+  status: 400,
+  headers: Headers {
+    [Symbol(map)]: [Object: null prototype] {
+      date: [Array],
+      'content-type': [Array],
+      'content-length': [Array],
+      connection: [Array],
+      'set-cookie': [Array],
+      'content-security-policy': [Array],
+      'x-dns-prefetch-control': [Array],
+      'x-frame-options': [Array],
+      'strict-transport-security': [Array],
+      'x-download-options': [Array],
+      'x-content-type-options': [Array],
+      'x-permitted-cross-domain-policies': [Array],
+      'referrer-policy': [Array],
+      'x-xss-protection': [Array],
+      etag: [Array],
+      vary: [Array],
+      'cf-cache-status': [Array],
+      server: [Array],
+      'cf-ray': [Array]
+    }
+  },
+  body: '{"object":"error","status":400,"code":"validation_error","message":"path failed validation: path.page_id should be a valid uuid, instead was `\\"undefined\\"`."}'
+}
+2022-09-16T20:50:58.933Z: main ~ ...finished synchronizing todo Build a Notion Bot with id 0dd97dc8-2db6-4cb2-bf4b-b9bce5ed183c to google
+2022-09-16T20:51:29.167Z: main ~ start fetching data...
+2022-09-16T20:51:35.973Z: main ~ ...finish fetching data
+2022-09-16T20:51:43.315Z: main ~ start fetching data...
+2022-09-16T20:51:50.375Z: main ~ ...finish fetching data
+2022-09-16T20:51:50.375Z: main ~ start synchronizing todo Aufgabe 3 with id 6a27f35c-8096-4e81-8345-fbc5f44bdd2f to google...
+2022-09-16T20:51:59.412Z: createEvent ~ error occured when adding event undefined from calender 2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887@group.calendar.google.com  GaxiosError: Bad Request
+    at Gaxios._request (/Users/maxkleinegger/Desktop/notion-bot/node_modules/gaxios/build/src/gaxios.js:130:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async JWT.requestAsync (/Users/maxkleinegger/Desktop/notion-bot/node_modules/google-auth-library/build/src/auth/oauth2client.js:368:18)
+    at async exports.createEvent (/Users/maxkleinegger/Desktop/notion-bot/googleAPIHelper.js:75:12)
+    at async main (/Users/maxkleinegger/Desktop/notion-bot/notion_automatization_script.js:128:18) {
+  response: {
+    config: {
+      project: '493197103386',
+      url: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events',
+      method: 'POST',
+      userAgentDirectives: [Array],
+      paramsSerializer: [Function (anonymous)],
+      data: [Object],
+      headers: [Object],
+      params: {},
+      validateStatus: [Function (anonymous)],
+      retry: true,
+      body: '{"end":{"dateTime":"2022-09-13T23:59:99","timeZone":"Europe/Vienna"},"start":{"dateTime":"2022-09-13T23:59:99","timeZone":"Europe/Vienna"},"extendedProperties":{"private":{"synchronizedToNotion":true}},"summary":"Abgabe - Aufgabe 3","reminders":{"useDefault":true},"description":"Todo - https://www.notion.so/Aufgabe-3-6a27f35c80964e818345fbc5f44bdd2f"}',
+      responseType: 'json',
+      retryConfig: [Object]
+    },
+    data: { error: [Object] },
+    headers: {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"',
+      'cache-control': 'no-cache, no-store, max-age=0, must-revalidate',
+      connection: 'close',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=UTF-8',
+      date: 'Fri, 16 Sep 2022 20:51:59 GMT',
+      expires: 'Mon, 01 Jan 1990 00:00:00 GMT',
+      pragma: 'no-cache',
+      server: 'ESF',
+      'transfer-encoding': 'chunked',
+      vary: 'Origin, X-Origin, Referer',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'SAMEORIGIN',
+      'x-xss-protection': '0'
+    },
+    status: 400,
+    statusText: 'Bad Request',
+    request: {
+      responseURL: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events'
+    }
+  },
+  config: {
+    project: '493197103386',
+    url: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events',
+    method: 'POST',
+    userAgentDirectives: [ [Object] ],
+    paramsSerializer: [Function (anonymous)],
+    data: {
+      end: [Object],
+      start: [Object],
+      extendedProperties: [Object],
+      summary: 'Abgabe - Aufgabe 3',
+      reminders: [Object],
+      description: 'Todo - https://www.notion.so/Aufgabe-3-6a27f35c80964e818345fbc5f44bdd2f'
+    },
+    headers: {
+      'x-goog-api-client': 'gdcl/6.0.2 gl-node/18.6.0 auth/8.5.1',
+      'Accept-Encoding': 'gzip',
+      'User-Agent': 'google-api-nodejs-client/6.0.2 (gzip)',
+      Authorization: 'Bearer ya29.c.b0AXv0zTPYdeqFut79vXfKYZ-5szIlmJZPQmt2QGN9ntyGq2sTaAR9QQDL65xRBCKn38yfoO0zzGpgWx0hIQw1vLB3hgyTGqIwTBz6rvVU-q0ADOTpcHkpubJAhYluWBx5WXHofKuT1tEVOTD7eqm_59F2e1_guNqWzI1Xk-1z0B-OqVn7mW1Eo_ClsMLCQUon5cfNPCCTXVLtly8ukaUNFDW4ikFemw.........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................',
+      'Content-Type': 'application/json',
+      Accept: 'application/json'
+    },
+    params: {},
+    validateStatus: [Function (anonymous)],
+    retry: true,
+    body: '{"end":{"dateTime":"2022-09-13T23:59:99","timeZone":"Europe/Vienna"},"start":{"dateTime":"2022-09-13T23:59:99","timeZone":"Europe/Vienna"},"extendedProperties":{"private":{"synchronizedToNotion":true}},"summary":"Abgabe - Aufgabe 3","reminders":{"useDefault":true},"description":"Todo - https://www.notion.so/Aufgabe-3-6a27f35c80964e818345fbc5f44bdd2f"}',
+    responseType: 'json',
+    retryConfig: {
+      currentRetryAttempt: 0,
+      retry: 3,
+      httpMethodsToRetry: [Array],
+      noResponseRetries: 2,
+      statusCodesToRetry: [Array]
+    }
+  },
+  code: 400,
+  errors: [
+    { domain: 'global', reason: 'badRequest', message: 'Bad Request' }
+  ]
+}
+2022-09-16T20:51:59.419Z: main ~ start synchronizing todo Build a Notion Bot with id 0dd97dc8-2db6-4cb2-bf4b-b9bce5ed183c to google...
+2022-09-16T20:52:18.780Z: updatePage ~ error occured when updating page 0dd97dc8-2db6-4cb2-bf4b-b9bce5ed183c for databaseId 0cfbb67c-44a4-437a-b272-34484d01c61c  APIResponseError: path failed validation: path.page_id should be a valid uuid, instead was `"undefined"`.
+    at buildRequestError (/Users/maxkleinegger/Desktop/notion-bot/node_modules/@notionhq/client/build/src/errors.js:162:16)
+    at Client.request (/Users/maxkleinegger/Desktop/notion-bot/node_modules/@notionhq/client/build/src/Client.js:342:54)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async exports.updatePage (/Users/maxkleinegger/Desktop/notion-bot/notionAPIHelper.js:54:12)
+    at async main (/Users/maxkleinegger/Desktop/notion-bot/notion_automatization_script.js:136:16) {
+  code: 'validation_error',
+  status: 400,
+  headers: Headers {
+    [Symbol(map)]: [Object: null prototype] {
+      date: [Array],
+      'content-type': [Array],
+      'content-length': [Array],
+      connection: [Array],
+      'set-cookie': [Array],
+      'content-security-policy': [Array],
+      'x-dns-prefetch-control': [Array],
+      'x-frame-options': [Array],
+      'strict-transport-security': [Array],
+      'x-download-options': [Array],
+      'x-content-type-options': [Array],
+      'x-permitted-cross-domain-policies': [Array],
+      'referrer-policy': [Array],
+      'x-xss-protection': [Array],
+      etag: [Array],
+      vary: [Array],
+      'cf-cache-status': [Array],
+      server: [Array],
+      'cf-ray': [Array]
+    }
+  },
+  body: '{"object":"error","status":400,"code":"validation_error","message":"path failed validation: path.page_id should be a valid uuid, instead was `\\"undefined\\"`."}'
+}
+2022-09-16T20:52:54.541Z: main ~ start fetching data...
+2022-09-16T20:52:58.438Z: main ~ ...finish fetching data
+2022-09-16T20:52:58.439Z: main ~ start synchronizing todo Aufgabe 3 with id 6a27f35c-8096-4e81-8345-fbc5f44bdd2f to google...
+2022-09-16T20:53:02.961Z: createEvent ~ error occured when adding event undefined from calender 2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887@group.calendar.google.com  GaxiosError: Bad Request
+    at Gaxios._request (/Users/maxkleinegger/Desktop/notion-bot/node_modules/gaxios/build/src/gaxios.js:130:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async JWT.requestAsync (/Users/maxkleinegger/Desktop/notion-bot/node_modules/google-auth-library/build/src/auth/oauth2client.js:368:18)
+    at async exports.createEvent (/Users/maxkleinegger/Desktop/notion-bot/googleAPIHelper.js:75:12)
+    at async main (/Users/maxkleinegger/Desktop/notion-bot/notion_automatization_script.js:128:18) {
+  response: {
+    config: {
+      project: '493197103386',
+      url: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events',
+      method: 'POST',
+      userAgentDirectives: [Array],
+      paramsSerializer: [Function (anonymous)],
+      data: [Object],
+      headers: [Object],
+      params: {},
+      validateStatus: [Function (anonymous)],
+      retry: true,
+      body: '{"end":{"dateTime":"2022-09-13T23:59:99","timeZone":"Europe/Vienna"},"start":{"dateTime":"2022-09-13T23:59:99","timeZone":"Europe/Vienna"},"extendedProperties":{"private":{"synchronizedToNotion":true}},"summary":"Abgabe - Aufgabe 3","reminders":{"useDefault":true},"description":"Todo - https://www.notion.so/Aufgabe-3-6a27f35c80964e818345fbc5f44bdd2f"}',
+      responseType: 'json',
+      retryConfig: [Object]
+    },
+    data: { error: [Object] },
+    headers: {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"',
+      'cache-control': 'no-cache, no-store, max-age=0, must-revalidate',
+      connection: 'close',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=UTF-8',
+      date: 'Fri, 16 Sep 2022 20:53:03 GMT',
+      expires: 'Mon, 01 Jan 1990 00:00:00 GMT',
+      pragma: 'no-cache',
+      server: 'ESF',
+      'transfer-encoding': 'chunked',
+      vary: 'Origin, X-Origin, Referer',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'SAMEORIGIN',
+      'x-xss-protection': '0'
+    },
+    status: 400,
+    statusText: 'Bad Request',
+    request: {
+      responseURL: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events'
+    }
+  },
+  config: {
+    project: '493197103386',
+    url: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events',
+    method: 'POST',
+    userAgentDirectives: [ [Object] ],
+    paramsSerializer: [Function (anonymous)],
+    data: {
+      end: [Object],
+      start: [Object],
+      extendedProperties: [Object],
+      summary: 'Abgabe - Aufgabe 3',
+      reminders: [Object],
+      description: 'Todo - https://www.notion.so/Aufgabe-3-6a27f35c80964e818345fbc5f44bdd2f'
+    },
+    headers: {
+      'x-goog-api-client': 'gdcl/6.0.2 gl-node/18.6.0 auth/8.5.1',
+      'Accept-Encoding': 'gzip',
+      'User-Agent': 'google-api-nodejs-client/6.0.2 (gzip)',
+      Authorization: 'Bearer ya29.c.b0AXv0zTNNs1jaSbZOdnwfBeFYqN-SLMfJjcN60sKGgjYEBV8t-Brf-HaTwN_ZI-0P5V5YBTVizv8MPkkRqUaKlJHViEu7eNKG5VjWDYrCQloh_tVva_AK8_yQsgrFTLWlSdwknOF_cvZXuX2iPHo1vgpGSCuqR4CD_CNk3glpwOr-uxgQZP34Z9hrtCUPXhr8lG65VJRAoJIH_fvQ7Aj4-DNULQI1wQ.........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................',
+      'Content-Type': 'application/json',
+      Accept: 'application/json'
+    },
+    params: {},
+    validateStatus: [Function (anonymous)],
+    retry: true,
+    body: '{"end":{"dateTime":"2022-09-13T23:59:99","timeZone":"Europe/Vienna"},"start":{"dateTime":"2022-09-13T23:59:99","timeZone":"Europe/Vienna"},"extendedProperties":{"private":{"synchronizedToNotion":true}},"summary":"Abgabe - Aufgabe 3","reminders":{"useDefault":true},"description":"Todo - https://www.notion.so/Aufgabe-3-6a27f35c80964e818345fbc5f44bdd2f"}',
+    responseType: 'json',
+    retryConfig: {
+      currentRetryAttempt: 0,
+      retry: 3,
+      httpMethodsToRetry: [Array],
+      noResponseRetries: 2,
+      statusCodesToRetry: [Array]
+    }
+  },
+  code: 400,
+  errors: [
+    { domain: 'global', reason: 'badRequest', message: 'Bad Request' }
+  ]
+}
+2022-09-16T20:53:02.965Z: main ~ start synchronizing todo Build a Notion Bot with id 0dd97dc8-2db6-4cb2-bf4b-b9bce5ed183c to google...
+2022-09-16T20:53:43.823Z: updatePage ~ error occured when updating page 0dd97dc8-2db6-4cb2-bf4b-b9bce5ed183c for databaseId 0cfbb67c-44a4-437a-b272-34484d01c61c  APIResponseError: body failed validation. Fix one:
+body.properties.created_by.object should be not present, instead was `"user"`.
+body.properties.created_by.name should be defined, instead was `undefined`.
+body.properties.created_by.start should be defined, instead was `undefined`.
+    at buildRequestError (/Users/maxkleinegger/Desktop/notion-bot/node_modules/@notionhq/client/build/src/errors.js:162:16)
+    at Client.request (/Users/maxkleinegger/Desktop/notion-bot/node_modules/@notionhq/client/build/src/Client.js:342:54)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async exports.updatePage (/Users/maxkleinegger/Desktop/notion-bot/notionAPIHelper.js:54:12)
+    at async main (/Users/maxkleinegger/Desktop/notion-bot/notion_automatization_script.js:136:16) {
+  code: 'validation_error',
+  status: 400,
+  headers: Headers {
+    [Symbol(map)]: [Object: null prototype] {
+      date: [Array],
+      'content-type': [Array],
+      'content-length': [Array],
+      connection: [Array],
+      'set-cookie': [Array],
+      'content-security-policy': [Array],
+      'x-dns-prefetch-control': [Array],
+      'x-frame-options': [Array],
+      'strict-transport-security': [Array],
+      'x-download-options': [Array],
+      'x-content-type-options': [Array],
+      'x-permitted-cross-domain-policies': [Array],
+      'referrer-policy': [Array],
+      'x-xss-protection': [Array],
+      etag: [Array],
+      vary: [Array],
+      'cf-cache-status': [Array],
+      server: [Array],
+      'cf-ray': [Array]
+    }
+  },
+  body: '{"object":"error","status":400,"code":"validation_error","message":"body failed validation. Fix one:\\nbody.properties.created_by.object should be not present, instead was `\\"user\\"`.\\nbody.properties.created_by.name should be defined, instead was `undefined`.\\nbody.properties.created_by.start should be defined, instead was `undefined`."}'
+}
+2022-09-16T20:54:41.475Z: main ~ start fetching data...
+2022-09-16T20:54:44.834Z: main ~ ...finish fetching data
+2022-09-16T20:54:44.834Z: main ~ start synchronizing todo Aufgabe 3 with id 6a27f35c-8096-4e81-8345-fbc5f44bdd2f to google...
+2022-09-16T20:54:50.660Z: createEvent ~ error occured when adding event undefined from calender 2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887@group.calendar.google.com  GaxiosError: Bad Request
+    at Gaxios._request (/Users/maxkleinegger/Desktop/notion-bot/node_modules/gaxios/build/src/gaxios.js:130:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async JWT.requestAsync (/Users/maxkleinegger/Desktop/notion-bot/node_modules/google-auth-library/build/src/auth/oauth2client.js:368:18)
+    at async exports.createEvent (/Users/maxkleinegger/Desktop/notion-bot/googleAPIHelper.js:75:12)
+    at async main (/Users/maxkleinegger/Desktop/notion-bot/notion_automatization_script.js:128:18) {
+  response: {
+    config: {
+      project: '493197103386',
+      url: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events',
+      method: 'POST',
+      userAgentDirectives: [Array],
+      paramsSerializer: [Function (anonymous)],
+      data: [Object],
+      headers: [Object],
+      params: {},
+      validateStatus: [Function (anonymous)],
+      retry: true,
+      body: '{"end":{"dateTime":"2022-09-13T23:59:99","timeZone":"Europe/Vienna"},"start":{"dateTime":"2022-09-13T23:59:99","timeZone":"Europe/Vienna"},"extendedProperties":{"private":{"synchronizedToNotion":true}},"summary":"Abgabe - Aufgabe 3","reminders":{"useDefault":true},"description":"Todo - https://www.notion.so/Aufgabe-3-6a27f35c80964e818345fbc5f44bdd2f"}',
+      responseType: 'json',
+      retryConfig: [Object]
+    },
+    data: { error: [Object] },
+    headers: {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"',
+      'cache-control': 'no-cache, no-store, max-age=0, must-revalidate',
+      connection: 'close',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=UTF-8',
+      date: 'Fri, 16 Sep 2022 20:54:48 GMT',
+      expires: 'Mon, 01 Jan 1990 00:00:00 GMT',
+      pragma: 'no-cache',
+      server: 'ESF',
+      'transfer-encoding': 'chunked',
+      vary: 'Origin, X-Origin, Referer',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'SAMEORIGIN',
+      'x-xss-protection': '0'
+    },
+    status: 400,
+    statusText: 'Bad Request',
+    request: {
+      responseURL: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events'
+    }
+  },
+  config: {
+    project: '493197103386',
+    url: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events',
+    method: 'POST',
+    userAgentDirectives: [ [Object] ],
+    paramsSerializer: [Function (anonymous)],
+    data: {
+      end: [Object],
+      start: [Object],
+      extendedProperties: [Object],
+      summary: 'Abgabe - Aufgabe 3',
+      reminders: [Object],
+      description: 'Todo - https://www.notion.so/Aufgabe-3-6a27f35c80964e818345fbc5f44bdd2f'
+    },
+    headers: {
+      'x-goog-api-client': 'gdcl/6.0.2 gl-node/18.6.0 auth/8.5.1',
+      'Accept-Encoding': 'gzip',
+      'User-Agent': 'google-api-nodejs-client/6.0.2 (gzip)',
+      Authorization: 'Bearer ya29.c.b0AXv0zTM5z_4G122arXnRiZameIDWKBWIQROlp4yH6bppEYxLwyh-0gBi7QDy3komC8F4xHZArf6WvtqO0eDuJv-HsANJkEENdY9OFpEtwBjOQ9MB67TJjBu3CjpK1q9wpd4UJCnlSouwTrntLND6mTYP8dsI9TYWeAs6DmCjLDe6yNDti21a__u-lUhDhIpVy3dY3OaFcFFVn770hl-laV5EJu-JjQ.........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................',
+      'Content-Type': 'application/json',
+      Accept: 'application/json'
+    },
+    params: {},
+    validateStatus: [Function (anonymous)],
+    retry: true,
+    body: '{"end":{"dateTime":"2022-09-13T23:59:99","timeZone":"Europe/Vienna"},"start":{"dateTime":"2022-09-13T23:59:99","timeZone":"Europe/Vienna"},"extendedProperties":{"private":{"synchronizedToNotion":true}},"summary":"Abgabe - Aufgabe 3","reminders":{"useDefault":true},"description":"Todo - https://www.notion.so/Aufgabe-3-6a27f35c80964e818345fbc5f44bdd2f"}',
+    responseType: 'json',
+    retryConfig: {
+      currentRetryAttempt: 0,
+      retry: 3,
+      httpMethodsToRetry: [Array],
+      noResponseRetries: 2,
+      statusCodesToRetry: [Array]
+    }
+  },
+  code: 400,
+  errors: [
+    { domain: 'global', reason: 'badRequest', message: 'Bad Request' }
+  ]
+}
+2022-09-16T20:54:50.668Z: main ~ start synchronizing todo Build a Notion Bot with id 0dd97dc8-2db6-4cb2-bf4b-b9bce5ed183c to google...
+2022-09-16T20:55:05.722Z: updatePage ~ error occured when updating page 0dd97dc8-2db6-4cb2-bf4b-b9bce5ed183c for databaseId 0cfbb67c-44a4-437a-b272-34484d01c61c  APIResponseError: body failed validation. Fix one:
+body.properties.Date Created.title should be defined, instead was `undefined`.
+body.properties.Date Created.rich_text should be defined, instead was `undefined`.
+body.properties.Date Created.number should be defined, instead was `undefined`.
+body.properties.Date Created.url should be defined, instead was `undefined`.
+body.properties.Date Created.select should be defined, instead was `undefined`.
+body.properties.Date Created.multi_select should be defined, instead was `undefined`.
+body.properties.Date Created.people should be defined, instead was `undefined`.
+body.properties.Date Created.email should be defined, instead was `undefined`.
+body.properties.Date Created.phone_number should be defined, instead was `undefined`.
+body.properties.Date Created.date should be defined, instead was `undefined`.
+body.properties.Date Created.checkbox should be defined, instead was `undefined`.
+body.properties.Date Created.relation should be defined, instead was `undefined`.
+body.properties.Date Created.files should be defined, instead was `undefined`.
+body.properties.Date Created.status should be defined, instead was `undefined`.
+body.properties.Date Created.type should be not present, instead was `"created_time"`.
+body.properties.Date Created.created_time should be not present, instead was `"2022-03-01T21:26:00.000Z"`.
+body.properties.Date Created.name should be defined, instead was `undefined`.
+body.properties.Date Created.start should be defined, instead was `undefined`.
+    at buildRequestError (/Users/maxkleinegger/Desktop/notion-bot/node_modules/@notionhq/client/build/src/errors.js:162:16)
+    at Client.request (/Users/maxkleinegger/Desktop/notion-bot/node_modules/@notionhq/client/build/src/Client.js:342:54)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async exports.updatePage (/Users/maxkleinegger/Desktop/notion-bot/notionAPIHelper.js:54:12)
+    at async main (/Users/maxkleinegger/Desktop/notion-bot/notion_automatization_script.js:136:16) {
+  code: 'validation_error',
+  status: 400,
+  headers: Headers {
+    [Symbol(map)]: [Object: null prototype] {
+      date: [Array],
+      'content-type': [Array],
+      'transfer-encoding': [Array],
+      connection: [Array],
+      'set-cookie': [Array],
+      'content-security-policy': [Array],
+      'x-dns-prefetch-control': [Array],
+      'x-frame-options': [Array],
+      'strict-transport-security': [Array],
+      'x-download-options': [Array],
+      'x-content-type-options': [Array],
+      'x-permitted-cross-domain-policies': [Array],
+      'referrer-policy': [Array],
+      'x-xss-protection': [Array],
+      etag: [Array],
+      vary: [Array],
+      'content-encoding': [Array],
+      'cf-cache-status': [Array],
+      server: [Array],
+      'cf-ray': [Array]
+    }
+  },
+  body: '{"object":"error","status":400,"code":"validation_error","message":"body failed validation. Fix one:\\nbody.properties.Date Created.title should be defined, instead was `undefined`.\\nbody.properties.Date Created.rich_text should be defined, instead was `undefined`.\\nbody.properties.Date Created.number should be defined, instead was `undefined`.\\nbody.properties.Date Created.url should be defined, instead was `undefined`.\\nbody.properties.Date Created.select should be defined, instead was `undefined`.\\nbody.properties.Date Created.multi_select should be defined, instead was `undefined`.\\nbody.properties.Date Created.people should be defined, instead was `undefined`.\\nbody.properties.Date Created.email should be defined, instead was `undefined`.\\nbody.properties.Date Created.phone_number should be defined, instead was `undefined`.\\nbody.properties.Date Created.date should be defined, instead was `undefined`.\\nbody.properties.Date Created.checkbox should be defined, instead was `undefined`.\\nbody.properties.Date Created.relation should be defined, instead was `undefined`.\\nbody.properties.Date Created.files should be defined, instead was `undefined`.\\nbody.properties.Date Created.status should be defined, instead was `undefined`.\\nbody.properties.Date Created.type should be not present, instead was `\\"created_time\\"`.\\nbody.properties.Date Created.created_time should be not present, instead was `\\"2022-03-01T21:26:00.000Z\\"`.\\nbody.properties.Date Created.name should be defined, instead was `undefined`.\\nbody.properties.Date Created.start should be defined, instead was `undefined`."}'
+}
+2022-09-16T20:57:04.872Z: main ~ start fetching data...
+2022-09-16T20:57:31.936Z: main ~ ...finish fetching data
+2022-09-16T20:57:31.936Z: main ~ start synchronizing todo Aufgabe 3 with id 6a27f35c-8096-4e81-8345-fbc5f44bdd2f to google...
+2022-09-16T20:57:44.902Z: createEvent ~ error occured when adding event undefined from calender 2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887@group.calendar.google.com  GaxiosError: Bad Request
+    at Gaxios._request (/Users/maxkleinegger/Desktop/notion-bot/node_modules/gaxios/build/src/gaxios.js:130:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async JWT.requestAsync (/Users/maxkleinegger/Desktop/notion-bot/node_modules/google-auth-library/build/src/auth/oauth2client.js:368:18)
+    at async exports.createEvent (/Users/maxkleinegger/Desktop/notion-bot/googleAPIHelper.js:75:12)
+    at async main (/Users/maxkleinegger/Desktop/notion-bot/notion_automatization_script.js:128:18) {
+  response: {
+    config: {
+      project: '493197103386',
+      url: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events',
+      method: 'POST',
+      userAgentDirectives: [Array],
+      paramsSerializer: [Function (anonymous)],
+      data: [Object],
+      headers: [Object],
+      params: {},
+      validateStatus: [Function (anonymous)],
+      retry: true,
+      body: '{"end":{"dateTime":"2022-09-13T23:59:99","timeZone":"Europe/Vienna"},"start":{"dateTime":"2022-09-13T23:59:99","timeZone":"Europe/Vienna"},"extendedProperties":{"private":{"synchronizedToNotion":true}},"summary":"Abgabe - Aufgabe 3","reminders":{"useDefault":true},"description":"Todo - https://www.notion.so/Aufgabe-3-6a27f35c80964e818345fbc5f44bdd2f"}',
+      responseType: 'json',
+      retryConfig: [Object]
+    },
+    data: { error: [Object] },
+    headers: {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"',
+      'cache-control': 'no-cache, no-store, max-age=0, must-revalidate',
+      connection: 'close',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=UTF-8',
+      date: 'Fri, 16 Sep 2022 20:57:41 GMT',
+      expires: 'Mon, 01 Jan 1990 00:00:00 GMT',
+      pragma: 'no-cache',
+      server: 'ESF',
+      'transfer-encoding': 'chunked',
+      vary: 'Origin, X-Origin, Referer',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'SAMEORIGIN',
+      'x-xss-protection': '0'
+    },
+    status: 400,
+    statusText: 'Bad Request',
+    request: {
+      responseURL: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events'
+    }
+  },
+  config: {
+    project: '493197103386',
+    url: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events',
+    method: 'POST',
+    userAgentDirectives: [ [Object] ],
+    paramsSerializer: [Function (anonymous)],
+    data: {
+      end: [Object],
+      start: [Object],
+      extendedProperties: [Object],
+      summary: 'Abgabe - Aufgabe 3',
+      reminders: [Object],
+      description: 'Todo - https://www.notion.so/Aufgabe-3-6a27f35c80964e818345fbc5f44bdd2f'
+    },
+    headers: {
+      'x-goog-api-client': 'gdcl/6.0.2 gl-node/18.6.0 auth/8.5.1',
+      'Accept-Encoding': 'gzip',
+      'User-Agent': 'google-api-nodejs-client/6.0.2 (gzip)',
+      Authorization: 'Bearer ya29.c.b0AXv0zTP5WBXz8NJag5tOFFtMBX4R82D_moE6MCw4nvGNT0KqKlu0gvXRUA6AmW0lwwkX93VlJJXpLsfdt9q9dmyCjoFtTqeMjqqKa5tXCGtwYMZAZWhhn1hwurORbnn1_ODX8Usp1Q37MX4yXHuQnAvSJmP0dyEGrV3ck0WnrU1CyMUK-Vnd04jKB2hnXxzTIJC4B73hms-rK1PGCRGfSQ5uV79poA.........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................',
+      'Content-Type': 'application/json',
+      Accept: 'application/json'
+    },
+    params: {},
+    validateStatus: [Function (anonymous)],
+    retry: true,
+    body: '{"end":{"dateTime":"2022-09-13T23:59:99","timeZone":"Europe/Vienna"},"start":{"dateTime":"2022-09-13T23:59:99","timeZone":"Europe/Vienna"},"extendedProperties":{"private":{"synchronizedToNotion":true}},"summary":"Abgabe - Aufgabe 3","reminders":{"useDefault":true},"description":"Todo - https://www.notion.so/Aufgabe-3-6a27f35c80964e818345fbc5f44bdd2f"}',
+    responseType: 'json',
+    retryConfig: {
+      currentRetryAttempt: 0,
+      retry: 3,
+      httpMethodsToRetry: [Array],
+      noResponseRetries: 2,
+      statusCodesToRetry: [Array]
+    }
+  },
+  code: 400,
+  errors: [
+    { domain: 'global', reason: 'badRequest', message: 'Bad Request' }
+  ]
+}
+2022-09-16T20:57:44.909Z: main ~ start synchronizing todo Build a Notion Bot with id 0dd97dc8-2db6-4cb2-bf4b-b9bce5ed183c to google...
+2022-09-16T20:58:04.646Z: main ~ ...finished synchronizing todo Build a Notion Bot with id 0dd97dc8-2db6-4cb2-bf4b-b9bce5ed183c to google
+2022-09-16T21:02:07.064Z: main ~ start fetching data...
+2022-09-16T21:02:34.331Z: main ~ ...finish fetching data
+2022-09-16T21:02:34.331Z: main ~ start synchronizing todo Aufgabe 3 with id 6a27f35c-8096-4e81-8345-fbc5f44bdd2f to google...
+2022-09-16T21:03:33.123Z: main ~ start fetching data...
+2022-09-16T21:03:38.492Z: main ~ ...finish fetching data
+2022-09-16T21:03:38.492Z: main ~ start synchronizing todo Aufgabe 3 with id 6a27f35c-8096-4e81-8345-fbc5f44bdd2f to google...
+2022-09-16T21:04:32.348Z: createEvent ~ error occured when adding event undefined from calender 2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887@group.calendar.google.com  GaxiosError: Bad Request
+    at Gaxios._request (/Users/maxkleinegger/Desktop/notion-bot/node_modules/gaxios/build/src/gaxios.js:130:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async JWT.requestAsync (/Users/maxkleinegger/Desktop/notion-bot/node_modules/google-auth-library/build/src/auth/oauth2client.js:368:18)
+    at async exports.createEvent (/Users/maxkleinegger/Desktop/notion-bot/googleAPIHelper.js:75:12)
+    at async main (/Users/maxkleinegger/Desktop/notion-bot/notion_automatization_script.js:128:18) {
+  response: {
+    config: {
+      project: '493197103386',
+      url: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events',
+      method: 'POST',
+      userAgentDirectives: [Array],
+      paramsSerializer: [Function (anonymous)],
+      data: [Object],
+      headers: [Object],
+      params: {},
+      validateStatus: [Function (anonymous)],
+      retry: true,
+      body: '{"end":{"dateTime":"2022-09-20T23:59:99","timeZone":"Europe/Vienna"},"start":{"dateTime":"2022-09-20T23:59:99","timeZone":"Europe/Vienna"},"extendedProperties":{"private":{"synchronizedToNotion":true}},"summary":"Abgabe - Aufgabe 3","reminders":{"useDefault":true},"description":"Todo - https://www.notion.so/Aufgabe-3-6a27f35c80964e818345fbc5f44bdd2f"}',
+      responseType: 'json',
+      retryConfig: [Object]
+    },
+    data: { error: [Object] },
+    headers: {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"',
+      'cache-control': 'no-cache, no-store, max-age=0, must-revalidate',
+      connection: 'close',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=UTF-8',
+      date: 'Fri, 16 Sep 2022 21:03:52 GMT',
+      expires: 'Mon, 01 Jan 1990 00:00:00 GMT',
+      pragma: 'no-cache',
+      server: 'ESF',
+      'transfer-encoding': 'chunked',
+      vary: 'Origin, X-Origin, Referer',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'SAMEORIGIN',
+      'x-xss-protection': '0'
+    },
+    status: 400,
+    statusText: 'Bad Request',
+    request: {
+      responseURL: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events'
+    }
+  },
+  config: {
+    project: '493197103386',
+    url: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events',
+    method: 'POST',
+    userAgentDirectives: [ [Object] ],
+    paramsSerializer: [Function (anonymous)],
+    data: {
+      end: [Object],
+      start: [Object],
+      extendedProperties: [Object],
+      summary: 'Abgabe - Aufgabe 3',
+      reminders: [Object],
+      description: 'Todo - https://www.notion.so/Aufgabe-3-6a27f35c80964e818345fbc5f44bdd2f'
+    },
+    headers: {
+      'x-goog-api-client': 'gdcl/6.0.2 gl-node/18.6.0 auth/8.5.1',
+      'Accept-Encoding': 'gzip',
+      'User-Agent': 'google-api-nodejs-client/6.0.2 (gzip)',
+      Authorization: 'Bearer ya29.c.b0AXv0zTMNinZ8R5aF8_I5raTIp95OITcDicij4zBsde9uw1IcSpFeJo0Tv0dkbS-BddPq-bCdoJFSL3qYKzKEUt6JwPYP91glD6V7m9ILbNgp4ZugQJsWRf7uII6nbKMiD8QUDYWwPbRBC8M6tZtgAtCeIH6T-KaFrkc5iotv-Xab3LFeXsACFUzmQci5kvH-CvyCIa-uzEhBI1F9YsxOqwbTyZ1Acg.........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................',
+      'Content-Type': 'application/json',
+      Accept: 'application/json'
+    },
+    params: {},
+    validateStatus: [Function (anonymous)],
+    retry: true,
+    body: '{"end":{"dateTime":"2022-09-20T23:59:99","timeZone":"Europe/Vienna"},"start":{"dateTime":"2022-09-20T23:59:99","timeZone":"Europe/Vienna"},"extendedProperties":{"private":{"synchronizedToNotion":true}},"summary":"Abgabe - Aufgabe 3","reminders":{"useDefault":true},"description":"Todo - https://www.notion.so/Aufgabe-3-6a27f35c80964e818345fbc5f44bdd2f"}',
+    responseType: 'json',
+    retryConfig: {
+      currentRetryAttempt: 0,
+      retry: 3,
+      httpMethodsToRetry: [Array],
+      noResponseRetries: 2,
+      statusCodesToRetry: [Array]
+    }
+  },
+  code: 400,
+  errors: [
+    { domain: 'global', reason: 'badRequest', message: 'Bad Request' }
+  ]
+}
+2022-09-16T21:04:52.346Z: main ~ start fetching data...
+2022-09-16T21:04:57.635Z: main ~ ...finish fetching data
+2022-09-16T21:04:57.635Z: main ~ start synchronizing todo Aufgabe 3 with id 6a27f35c-8096-4e81-8345-fbc5f44bdd2f to google...
+2022-09-16T21:06:13.150Z: createEvent ~ error occured when adding event undefined from calender 2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887@group.calendar.google.com  GaxiosError: Bad Request
+    at Gaxios._request (/Users/maxkleinegger/Desktop/notion-bot/node_modules/gaxios/build/src/gaxios.js:130:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async JWT.requestAsync (/Users/maxkleinegger/Desktop/notion-bot/node_modules/google-auth-library/build/src/auth/oauth2client.js:368:18)
+    at async exports.createEvent (/Users/maxkleinegger/Desktop/notion-bot/googleAPIHelper.js:75:12)
+    at async main (/Users/maxkleinegger/Desktop/notion-bot/notion_automatization_script.js:128:18) {
+  response: {
+    config: {
+      project: '493197103386',
+      url: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events',
+      method: 'POST',
+      userAgentDirectives: [Array],
+      paramsSerializer: [Function (anonymous)],
+      data: [Object],
+      headers: [Object],
+      params: {},
+      validateStatus: [Function (anonymous)],
+      retry: true,
+      body: '{"end":{"dateTime":"2022-09-20T23:59:99","timeZone":"Europe/Vienna"},"start":{"dateTime":"2022-09-20T23:59:99","timeZone":"Europe/Vienna"},"extendedProperties":{"private":{"synchronizedToNotion":true}},"summary":"Abgabe - Aufgabe 3","reminders":{"useDefault":true},"description":"Todo - https://www.notion.so/Aufgabe-3-6a27f35c80964e818345fbc5f44bdd2f"}',
+      responseType: 'json',
+      retryConfig: [Object]
+    },
+    data: { error: [Object] },
+    headers: {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"',
+      'cache-control': 'no-cache, no-store, max-age=0, must-revalidate',
+      connection: 'close',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=UTF-8',
+      date: 'Fri, 16 Sep 2022 21:06:13 GMT',
+      expires: 'Mon, 01 Jan 1990 00:00:00 GMT',
+      pragma: 'no-cache',
+      server: 'ESF',
+      'transfer-encoding': 'chunked',
+      vary: 'Origin, X-Origin, Referer',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'SAMEORIGIN',
+      'x-xss-protection': '0'
+    },
+    status: 400,
+    statusText: 'Bad Request',
+    request: {
+      responseURL: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events'
+    }
+  },
+  config: {
+    project: '493197103386',
+    url: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events',
+    method: 'POST',
+    userAgentDirectives: [ [Object] ],
+    paramsSerializer: [Function (anonymous)],
+    data: {
+      end: [Object],
+      start: [Object],
+      extendedProperties: [Object],
+      summary: 'Abgabe - Aufgabe 3',
+      reminders: [Object],
+      description: 'Todo - https://www.notion.so/Aufgabe-3-6a27f35c80964e818345fbc5f44bdd2f'
+    },
+    headers: {
+      'x-goog-api-client': 'gdcl/6.0.2 gl-node/18.6.0 auth/8.5.1',
+      'Accept-Encoding': 'gzip',
+      'User-Agent': 'google-api-nodejs-client/6.0.2 (gzip)',
+      Authorization: 'Bearer ya29.c.b0AXv0zTN-4EpUxWg6fGv4NHJ60NuZpFbCX8enzKwUL0Ma88t_gUJ7rfU5cysbo5S0kFTHJzlkWoV2t9_rvpCfoDteaMaCXEMt1nkB84iTVMb8InuhzXzodBiuMhS88WM2IwoKXF1BHH6BnFawZ_HjuASvh8J2eLyfhr44TTxz7GW1dVJrdnljr-ZsKBhFNG6JqrXLYQQ6KR8npfHuLCTfZZ5PHm7r6g.........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................',
+      'Content-Type': 'application/json',
+      Accept: 'application/json'
+    },
+    params: {},
+    validateStatus: [Function (anonymous)],
+    retry: true,
+    body: '{"end":{"dateTime":"2022-09-20T23:59:99","timeZone":"Europe/Vienna"},"start":{"dateTime":"2022-09-20T23:59:99","timeZone":"Europe/Vienna"},"extendedProperties":{"private":{"synchronizedToNotion":true}},"summary":"Abgabe - Aufgabe 3","reminders":{"useDefault":true},"description":"Todo - https://www.notion.so/Aufgabe-3-6a27f35c80964e818345fbc5f44bdd2f"}',
+    responseType: 'json',
+    retryConfig: {
+      currentRetryAttempt: 0,
+      retry: 3,
+      httpMethodsToRetry: [Array],
+      noResponseRetries: 2,
+      statusCodesToRetry: [Array]
+    }
+  },
+  code: 400,
+  errors: [
+    { domain: 'global', reason: 'badRequest', message: 'Bad Request' }
+  ]
+}
+2022-09-16T21:06:26.571Z: main ~ start fetching data...
+2022-09-16T21:06:40.185Z: main ~ ...finish fetching data
+2022-09-16T21:06:40.185Z: main ~ start synchronizing todo Aufgabe 3 with id 6a27f35c-8096-4e81-8345-fbc5f44bdd2f to google...
+2022-09-16T21:08:15.339Z: main ~ start fetching data...
+2022-09-16T21:08:20.322Z: main ~ ...finish fetching data
+2022-09-16T21:08:20.322Z: main ~ start synchronizing todo Aufgabe 3 with id 6a27f35c-8096-4e81-8345-fbc5f44bdd2f to google...
+2022-09-16T21:08:29.646Z: createEvent ~ error occured when adding event undefined from calender 2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887@group.calendar.google.com  GaxiosError: Bad Request
+    at Gaxios._request (/Users/maxkleinegger/Desktop/notion-bot/node_modules/gaxios/build/src/gaxios.js:130:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async JWT.requestAsync (/Users/maxkleinegger/Desktop/notion-bot/node_modules/google-auth-library/build/src/auth/oauth2client.js:368:18)
+    at async exports.createEvent (/Users/maxkleinegger/Desktop/notion-bot/googleAPIHelper.js:75:12)
+    at async main (/Users/maxkleinegger/Desktop/notion-bot/notion_automatization_script.js:128:18) {
+  response: {
+    config: {
+      project: '493197103386',
+      url: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events',
+      method: 'POST',
+      userAgentDirectives: [Array],
+      paramsSerializer: [Function (anonymous)],
+      data: [Object],
+      headers: [Object],
+      params: {},
+      validateStatus: [Function (anonymous)],
+      retry: true,
+      body: '{"end":{"dateTime":"2022-09-20T23:59:99.999+02:00","timeZone":"Europe/Vienna"},"start":{"dateTime":"2022-09-20T23:59:99.999+02:00","timeZone":"Europe/Vienna"},"extendedProperties":{"private":{"synchronizedToNotion":true}},"summary":"Abgabe - Aufgabe 3","reminders":{"useDefault":true},"description":"Todo - https://www.notion.so/Aufgabe-3-6a27f35c80964e818345fbc5f44bdd2f"}',
+      responseType: 'json',
+      retryConfig: [Object]
+    },
+    data: { error: [Object] },
+    headers: {
+      'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"',
+      'cache-control': 'no-cache, no-store, max-age=0, must-revalidate',
+      connection: 'close',
+      'content-encoding': 'gzip',
+      'content-type': 'application/json; charset=UTF-8',
+      date: 'Fri, 16 Sep 2022 21:08:25 GMT',
+      expires: 'Mon, 01 Jan 1990 00:00:00 GMT',
+      pragma: 'no-cache',
+      server: 'ESF',
+      'transfer-encoding': 'chunked',
+      vary: 'Origin, X-Origin, Referer',
+      'x-content-type-options': 'nosniff',
+      'x-frame-options': 'SAMEORIGIN',
+      'x-xss-protection': '0'
+    },
+    status: 400,
+    statusText: 'Bad Request',
+    request: {
+      responseURL: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events'
+    }
+  },
+  config: {
+    project: '493197103386',
+    url: 'https://www.googleapis.com/calendar/v3/calendars/2a79c3ecf97ee39c45495a0642e5ca35a7843e0bf4975188fcae307791e8e887%40group.calendar.google.com/events',
+    method: 'POST',
+    userAgentDirectives: [ [Object] ],
+    paramsSerializer: [Function (anonymous)],
+    data: {
+      end: [Object],
+      start: [Object],
+      extendedProperties: [Object],
+      summary: 'Abgabe - Aufgabe 3',
+      reminders: [Object],
+      description: 'Todo - https://www.notion.so/Aufgabe-3-6a27f35c80964e818345fbc5f44bdd2f'
+    },
+    headers: {
+      'x-goog-api-client': 'gdcl/6.0.2 gl-node/18.6.0 auth/8.5.1',
+      'Accept-Encoding': 'gzip',
+      'User-Agent': 'google-api-nodejs-client/6.0.2 (gzip)',
+      Authorization: 'Bearer ya29.c.b0AXv0zTP97-snBe1eUtSgVHz7WiWC3mfu0Q-GcOJNE6MhVdSkXUE35i8m9KBI05Wy5jyc0yDFlfiPJDO7B023NpLuOMZnHthd5ijHi80hsbTyi4tjpkCAsXbZlMtsFxELIfCBu-eYSX-KffNoFzTOXEfdf-mZaIzPFB126rZG9EIoajO_RYEDvtU9hmiyekEamiLgiEq0rO1lMwzkyrfEj5A1OHyBYQ.........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................',
+      'Content-Type': 'application/json',
+      Accept: 'application/json'
+    },
+    params: {},
+    validateStatus: [Function (anonymous)],
+    retry: true,
+    body: '{"end":{"dateTime":"2022-09-20T23:59:99.999+02:00","timeZone":"Europe/Vienna"},"start":{"dateTime":"2022-09-20T23:59:99.999+02:00","timeZone":"Europe/Vienna"},"extendedProperties":{"private":{"synchronizedToNotion":true}},"summary":"Abgabe - Aufgabe 3","reminders":{"useDefault":true},"description":"Todo - https://www.notion.so/Aufgabe-3-6a27f35c80964e818345fbc5f44bdd2f"}',
+    responseType: 'json',
+    retryConfig: {
+      currentRetryAttempt: 0,
+      retry: 3,
+      httpMethodsToRetry: [Array],
+      noResponseRetries: 2,
+      statusCodesToRetry: [Array]
+    }
+  },
+  code: 400,
+  errors: [
+    { domain: 'global', reason: 'badRequest', message: 'Bad Request' }
+  ]
+}
+2022-09-16T21:09:38.833Z: main ~ start fetching data...
+2022-09-16T21:09:45.369Z: main ~ ...finish fetching data
+2022-09-16T21:11:54.147Z: main ~ start fetching data...
+2022-09-16T21:11:59.005Z: main ~ ...finish fetching data
+2022-09-16T21:11:59.006Z: main ~ start synchronizing todo Aufgabe 3 with id 6a27f35c-8096-4e81-8345-fbc5f44bdd2f to google...
+2022-09-16T21:12:56.893Z: main ~ ...finished synchronizing todo Aufgabe 3 with id 6a27f35c-8096-4e81-8345-fbc5f44bdd2f to google

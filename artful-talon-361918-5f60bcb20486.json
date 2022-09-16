@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "artful-talon-361918",
+  "private_key_id": "5f60bcb204865e7caa784b537d41bbce11648399",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC2JkXZd8vOYFXP\n7roGtjIGkxtGgVT2cL1yMMu7NuS0BwDsUanHFUnQBkbALXHh+2gYpBKn2oYhARuz\nfMSP9ClodHPYdZfBvPRmBeEFoM3HgFLshUohhyxwEbo59KwCcaTxAVmgl9xbqZt7\ngyyOXcAS4GXAMzGZKiMHf1AcFVhEDvKYNc5RP8vbtACsDCegrgCjg5EZMwJ2Iqw2\nEFJgufUAS0pi5jfq8N5IeKOnlxrAVq5le6GVd7TAaMy9oNd+OeJCWZDeH/xI4jlu\nFgQdG8jyBq42TPvEDk5i03HY1Tc9q3qK3hSxZk5SorH69AgcUU7rtAYD4WuwUQwe\nlmJjcd4dAgMBAAECggEAIhFXeByVVFSlSB400eOKyLsD23R+ERe1/yEMQcg7D0bO\nD+UYNYGQTCWYXwJA7gzJA+7QBG/1LUAZT8EyvF/kzMIXFrGrwBMYvOo1k4lnY3xn\nRhCJ9GplT9Ko+4T9FPnvaRohCs3Ma6J1z6yRjVEQhxdMQJ3ylVyRr6nKsG33k8bM\nTykViDdOxeYrre+rWPcn1UjfxLb7TUmkMWKK5tjmX7YRhZJO0tYOdmeNgXI24L5b\n0u3V20FsPej+FBXvmRXwqmR8c3HAoSXqfPqL60EuIJbUl8o/86YvHDbSeXYIPws6\nX7LGscNH/Gsi2g58XiOw0kYDIUINb6PCXgF+GxOt6wKBgQD5efKXcEi3hrMdS8uY\n8F1z3APlHSTL7LHYYLsyIb7Y+SBA6OQdBn/JcRPZCOwBIUqWYiqdCEyE28FpRjRN\nzq3kKUuBA4d6kLEB7un6JR/3tKJt45+R0ZRID92hQLc/UMGp5R/sEDbeOMCRY2wD\nvN6hlyREiS6WhzhhdoLIeU6kNwKBgQC66Z+rQ/wvopUmf6qomA5z2qVmV1Q1l2dV\n59ehpHSlaIk2vgY7aFWHEtp940Ar8urKfdtdmpo7zRyDSI6uZsLfoUEhI0hGWFQP\nk7OQoUbcOEPiyURF2WlfsZ+o2APePC79Clfy7C85Tf/swDq+V51jWGhrqrsMAuy0\nBJx69hlOSwKBgCXNx+gQ2MQOwlefI7QCQHcNEP4IA4pvTKfYSKWZHX1tiuirId4Q\nHQ8edn597p1hORc+uuxe1JGRZ2aXf9eGiS044LslGMOG53u+g3AnbgewNKjoREbp\ndknRNal40AvlJeOj18mCz32vJeciJL0QQsBD0fgcvZWL2gxS1BCi6TrTAoGBAJoY\nLUi3Hdvvv+MjcYDZC2E8Kww6hvQ/xDOwlbdvq7MKgcUd2Gl11L0tL/CFP8x70lHq\nfMWoxerzaMRbNzZVBef0O4ukWNuVyoelD273Z0H7KQx5Pc4QNa1s9OHwZQ/8sghv\nVJ6zVSN7SLjYqhVuihTzN/M7qEV4y8iF3LQK3EYNAoGBAJXqlGa/DyAkLfHuMJXu\nXss6XqRWsPQPuNpwR+CW5KjCm+TGkA1c3RCUqrQ5zhFCeFIhiED0mVdTAjufF79I\n8rYphIEVgLkrWkEWX8IJlTNEn84MNpcEWZ79H5GW71um4mfcoFHpfKSZr9Dq4O3l\nkxGUzbQq6lE9TrskdI6oGLfn\n-----END PRIVATE KEY-----\n",
+  "client_email": "automationbot@artful-talon-361918.iam.gserviceaccount.com",
+  "client_id": "110032662416112417022",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/automationbot%40artful-talon-361918.iam.gserviceaccount.com"
+}
